@@ -79,7 +79,12 @@ module:
 - По умолчанию `true`
 
 Позволяет плагину собирать [статистику](https://bstats.org/plugin/bukkit/FlectonePulse/21076) сервера и параметров плагина
-[![bstats](https://bstats.org/signatures/bukkit/FlectonePulse.svg)](https://bstats.org/plugin/bukkit/FlectonePulse/21076)
+<div class="w-80" style=" display: flex; flex-direction: column; align-items: center; justify-content: center;">
+    <article class="bstats">
+        <a href="https://bstats.org/plugin/bukkit/FlectonePulse" rel="noopener nofollow ugc" target="_blank">
+        <img src="https://bstats.org/signatures/bukkit/FlectonePulse.svg" alt=""></a>
+    </article>
+</div>
 
 ### `bungeecord`
 - По умолчанию `false`
