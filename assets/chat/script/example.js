@@ -43,8 +43,8 @@ function right() {
             
     }
 
-    img.setAttribute("src", `./assets/images/${value}.gif`);
-    example.setAttribute("style", `background-image: url(./assets/images/${value}.gif);`);
+    img.setAttribute("src", `../../assets/chat/images/${value}.gif`);
+    example.setAttribute("style", `background-image: url(../../assets/chat/images/${value}.gif);`);
 }
 
 function left() {
@@ -86,9 +86,9 @@ function left() {
         break
     }
 
-    img.setAttribute("src", `./assets/images/${value}.gif`);
-    example.setAttribute("style", `background-image: url(./assets/images/${value}.gif);`);
+    img.setAttribute("src", `../../assets/chat/images/${value}.gif`);
+    example.setAttribute("style", `background-image: url(../../assets/chat/images/${value}.gif);`);
 }
 
-img.setAttribute("src", `./assets/images/${value}.gif`);
-example.setAttribute("style", `background-image: url(./assets/images/${value}.gif);`);
+img.setAttribute("src", `./assets/chat/images/${value}.gif`);
+example.setAttribute("style", `background-image: url(../../assets/chat/images/${value}.gif);`);
