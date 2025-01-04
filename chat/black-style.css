@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@font-face {
+    
+    font-family: "Minecraft"; 
+    
+    src: url("./res/minecraft.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+} 
+
+*{
+    margin: 0;
+    padding: 0;
+    transition: .1s;
+}
+
+body {
+    font-family: montserrat, sans-serif;
+    background-color: #131313;
+    color: rgb(255, 255, 255);
+    /* padding: 0 10vw 0 10vw; */
+    animation: backgroundAnimation 40s infinite linear; 
+    background-image: url(https://flectone.net/res/all-chat-eng.png);
+}
+@keyframes backgroundAnimation {
+    0% {
+        background-position: 0px;
+    }
+    100% {
+        background-position: -100vw;
+    }
+}
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.overview {
+    width: 60vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+#themeSwitchButton {
+    background-color: #ffffff;
+}
+.example {
+    position: relative;
+    border-radius: 0.7vw;
+    width: 95%;
+    height: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.img {
+    transition: .3s;
+    box-sizing: content-box;
+    background-clip: border-box;
+    border-radius: .7vw;
+    width: 19vw;
+    position: relative;
+}
+.wiki {
+    bottom: 0px;
+    padding: 2vw;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 93%;
+    border-radius: 0vw 0vw .7vw .7vw;
+    background-color: #1515150f;
+    backdrop-filter: blur(900px);
+}
+.wiki a {
+    text-decoration: none;
+    color: rgb(58, 137, 255);
+}
+.description {
+    position: absolute;
+    top: 0vw;
+    display: flex;
+    justify-content: center;
+    width: 93%;
+    border-radius: .7vw .7vw 0px 0px;
+    padding: 2vw;
+    background-color: #1515150f;
+    backdrop-filter: blur(900px);
+}
+.blur {
+    backdrop-filter: blur(10px);
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    border-radius: .7vw;
+}
+.arrows {
+    position: absolute;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    border-radius: .7vw;
+    display: flex;
+}
+.arrow {
+    background-color: #00000000;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 5vw;
+    border-radius: .7vw;
+}
+.arrow img {
+    filter: invert(1);
+    width: 15px;
+    transition: 0.2s;
+    padding: 10px;
+}
+.arrow img:hover {
+    filter: invert(0.6);
+}
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30vw;
+
+}
+.title h1 {
+    font-weight: 900;
+    font-size: 2vw;
+    margin-top: 0.5vw;
+}
+.title h3 {
+    font-weight: 300;
+    margin-top: 1vw;
+    font-size: 1.4vw;
+    text-align: center;
+}
+.logo {
+    width: 20vw;
+}
+.modrinth-button {
+    background-color: #1dbb61;
+    border: none;
+    color: white;
+    height: 2vw;
+    font-weight: 800;
+    display: flex;
+    
+    text-decoration: none;
+    border-radius: 0.5vw;
+    margin-top: 1vw;
+    font-size: 1vw;
+    align-items: center;
+    justify-content: center;
+    padding: 0.2vw 0.3vw 0.2vw 0.3vw;
+}
+.modrinth-button * {
+    margin: 0.15vw;
+}
+.modrinth-button img {
+    width: 30px;
+}
+.modrinth-button:hover {
+    background-color: #22ce6d;
+}
+.spigot-button {
+    background-color: #ce7800;
+    border: none;
+    height: 2vw;
+    color: white;
+    font-weight: 800;
+    display: flex;
+    text-decoration: none;
+    border-radius: 0.5vw;
+    margin-top: .5vw;
+    font-size: 1vw;
+    align-items: center;
+    justify-content: center;
+    padding: 0.2vw 0.3vw 0.2vw 0.3vw;
+}
+.spigot-button * {
+    margin: 0.15vw;
+}
+.spigot-button img {
+    width: 30px;
+}
+.spigot-button:hover {
+    background-color: #db8000;
+}
+.buttons {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    
+}
+.button {
+    text-decoration: none;
+    color: white;
+    background-color: #0065d9;
+    padding: 0.4vw;
+    margin-right: 0.2vw;
+    display: inline-flex;
+    margin-right: 0.25vw;
+    margin-left: 0.25vw;
+    transition: 0.1s;
+    border-radius: .7vw;
+    width: 2vw;
+    height: 2vw;
+}
+#themeSwitchButton {
+    cursor: pointer;
+}
+.translate {
+    background-color: #4f8bf9;
+}
+.translate img {
+    filter: invert(1);
+}
+.link {
+    background-color: #353535;
+}
+.link:hover {
+    background-color: #444444;
+}
+.link-img {
+    width: 2vw;
+}
+.donate {
+    background-color: #e1a500;
+}
+.donate:hover {
+    background-color: #ebb00e;
+}
+.concealment {
+    animation: concealment 0.2s forwards;
+}
+@keyframes concealment {
+    from {opacity: 1;}
+    to {opacity: 0;}
+    
+}
+@keyframes appearance {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
