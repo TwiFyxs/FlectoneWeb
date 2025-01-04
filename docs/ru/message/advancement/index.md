@@ -17,9 +17,10 @@ advancement:
   grant: true
   revoke: true
   range: -1
+  destination:
+    type: CHAT
   sound:
     enable: false
-    type: "BLOCK_NOTE_BLOCK_BELL:1:1"
 ```
 
 ## Параметры
@@ -47,16 +48,6 @@ advancement:
 
 [Диапазон](#виды-диапазонов), насколько далеко в блоках отобразится сообщение
 
-### `sound`
-- По умолчанию `false`
-
-Включает проигрывание звука при использовании
-
-::: details Настройка звука
-### `type`
-- По умолчанию `BLOCK_NOTE_BLOCK_BELL:1:1`
-
-Определяет тип (`BLOCK_NOTE_BLOCK_BELL`), громкость (`1`) и тональность (`1`) звука через `:`
-:::
+<!--@include: @/ru/parts/sound.md-->
 
 <!--@include: @/ru/parts/range.md-->

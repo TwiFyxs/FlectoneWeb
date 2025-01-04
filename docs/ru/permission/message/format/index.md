@@ -114,6 +114,12 @@ message:
     NBT:
       name: "flectonepulse.module.message.format.nbt"
       type: OP
+    PRIDE:
+      name: "flectonepulse.module.message.format.pride"
+      type: OP
+    SHADOW_COLOR:
+      name: "flectonepulse.module.message.format.shadow_color"
+      type: OP
 ```
 
 ## Параметры
