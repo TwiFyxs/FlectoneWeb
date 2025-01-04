@@ -6,4 +6,4 @@ if (!langs.includes(language)) language = 'en'
 
 const langSpecified = /^(\/..\/)/.test(pathname)
 
-if (!langSpecified) window.location.pathname = `/${language}` + pathname
+if (!langSpecified) window.location.pathname = `/${language}`
