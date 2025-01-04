@@ -3,3 +3,4 @@ FlectonePulseDocs.iml
 /docs/.vitepress/cache/
 /docs/.vitepress/dist/
 /pulse/node_modules/
+/.idea/*
