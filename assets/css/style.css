@@ -27,6 +27,7 @@ main {
 
 .logo {
     width: 3rem;
+    height: 3rem;
 }
 
 .button {
@@ -46,23 +47,54 @@ main {
     background-color: #298dff;
 }
 
-.translate {
-    filter: invert(1);
-    width: 1.9rem;
-
-}
-
 .header {
     display: flex;
+    width: 60rem;
+    height: 2rem;
     align-items: center;
     justify-content: center;
 }
-
+.header-panel {
+    display: flex;
+    height: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+.panel-button {
+    background-color: #242424;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    padding: 0.2rem;
+    width: 2rem;
+    height: 2rem;
+    justify-content: center;
+}
+.panel-image {
+    width: 1.2rem;
+    filter: opacity(40%);
+}
+.panel-button:hover {
+    background-color: #292929;
+    .panel-image {
+        filter: opacity(70%);
+    }
+}
+.header-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2rem;
+}
 .header * {
     margin-right: 0.12rem;
     margin-left: 0.12rem;
 }
-
+.separator {
+    height: 1rem;
+    width: 2px;
+    background-color: white;
+}
 .description {
     position: absolute;
     bottom: -2.5rem;
@@ -128,6 +160,7 @@ main {
 
 .pulse-section {
     height: 100%;
+    width: 26rem;
     display: flex;
     flex-direction: column;
     justify-content: center;

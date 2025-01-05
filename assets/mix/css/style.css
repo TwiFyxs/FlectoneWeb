@@ -27,7 +27,27 @@ body {
 .logo {
     width: 20vw;
 }
-
+.panel-button {
+    background-color: #242424;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    padding: 0.2rem;
+    width: 2rem;
+    height: 2rem;
+    margin-top: 0.5rem;
+    justify-content: center;
+}
+.panel-image {
+    width: 1.2rem;
+    filter: opacity(40%);
+}
+.panel-button:hover {
+    background-color: #292929;
+    .panel-image {
+        filter: opacity(70%);
+    }
+}
 .download-button{
     font-size: 1.1vw;
     width: auto;
