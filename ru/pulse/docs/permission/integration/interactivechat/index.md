@@ -18,17 +18,7 @@ interactivechat:
 
 ## Параметры
 
-- [Интеграция](/ru/integration/interactivechat/)
+- [Интеграция](/docs/integration/interactivechat/)
 
-### `name`
-- По умолчанию `flectonepulse.module.integration.interactivechat`
-
-Название права
-
-### `type`
-- По умолчанию `TRUE`
-
-Тип права
-
-<!--@include: @/ru/parts/permission.md-->
+<!--@include: @/parts/permission/permissionTier3.md-->
 

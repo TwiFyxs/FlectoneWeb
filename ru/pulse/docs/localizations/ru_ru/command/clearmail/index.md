@@ -19,16 +19,14 @@ clearmail:
 
 ## Параметры
 
-- [Комманда](/ru/command/clearmail/)
-- [Права](/ru/permission/command/clearmail/)
+- [Комманда](/docs/command/clearmail/)
+- [Права](/docs/permission/command/clearmail/)
 
 ### `null-mail`
-- По умолчанию `<color:#ff7171><b>⁉</b> Письма не найдено`
 
 Сообщение, если введённое письмо не найдено
 
 ### `format`
-- По умолчанию `<fcolor:2>✉ [УДАЛЕНО] Письмо #<id> для <display_name> » <fcolor:1><message>`
 
 Формат сообщения, которое будет отправлено
 

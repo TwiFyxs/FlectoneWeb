@@ -20,20 +20,17 @@ unban:
 
 ## Параметры
 
-- [Комманда](/ru/command/unban/)
-- [Права](/ru/permission/command/unban/)
+- [Комманда](/docs/command/unban/)
+- [Права](/docs/permission/command/unban/)
 
 ### `null-player`
-- По умолчанию `<color:#ff7171><b>⁉</b> This player does not exist`
 
 Сообщение, если введённый игрок не найден
 
 ### `not-banned`
-- По умолчанию `<color:#ff7171><b>⁉</b> This player is not banned`
 
 Сообщение, если введённый игрок не заблокирован
 
 ### `format`
-- По умолчанию `<color:#98FB98>☻ Player <display_name> unbanned`
 
 Сообщение при разблокировке

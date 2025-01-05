@@ -124,54 +124,15 @@ chatsetting:
 
 ## Параметры
 
-- [Конфиг](/ru/command/chatsetting/)
-- [Локализация](/ru/localizations/ru_ru/command/chatsetting/)
+- [Конфиг](/docs/command/chatsetting/)
+- [Локализация](/docs/localizations/ru_ru/command/chatsetting/)
 
-### `name`
-- По умолчанию `flectonepulse.module.command.chatsetting`
-
-Название права
-
-### `type`
-- По умолчанию `TRUE`
-
-Тип права
+<!--@include: @/parts/permission/permissionTier3.md-->
 
 ### `settings`
 
 Список настроек и их прав
 
-### `cooldown-bypass`
-
-Право для игнорирования задержки между использованием
-
-::: details Настройка
-#### `name`
-- По умолчанию `flectonepulse.module.command.chatsetting.cooldown.bypass`
-
-Название права
-
-#### `type`
-- По умолчанию `OP`
-
-Тип права
-:::
-
-### `sound`
-
-Право для использования звука
-
-::: details Настройка
-#### `name`
-- По умолчанию `flectonepulse.module.command.chatsetting.sound`
-
-Название права
-
-#### `type`
-- По умолчанию `TRUE`
-
-Тип права
-:::
-
-<!--@include: @/ru/parts/permission.md-->
+<!--@include: @/parts/permission/cooldown.md-->
+<!--@include: @/parts/permission/sound.md-->
 

@@ -20,21 +20,16 @@ brand:
 
 ## Параметры
 
-- [Сообщения](/ru/message/brand/)
-- [Права](/ru/permission/message/brand/)
+- [Сообщения](/docs/message/brand/)
+- [Права](/docs/permission/message/brand/)
 
 ### `values`
-- По умолчанию:
-```yaml
-- "<white>Майнкрафт"
-- "<aqua>Майнкрафт"
-```
 
 Список сообщений для бренда
 
 ::: warning ВАЖНО
-В сообщение можно вставлять только [обычные цвета](#доступные-цвета)
+В сообщение можно вставлять только обычные цвета
 :::
 
-<!--@include: @/ru/parts/color.md-->
+<!--@include: @/parts/color.md-->
 

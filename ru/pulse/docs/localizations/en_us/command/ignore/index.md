@@ -23,36 +23,30 @@ ignore:
 
 ## Параметры
 
-- [Комманда](/ru/command/ignore/)
-- [Права](/ru/permission/command/ignore/)
+- [Комманда](/docs/command/ignore/)
+- [Права](/docs/permission/command/ignore/)
 
 ### `null-player`
-- По умолчанию `<color:#ff7171><b>⁉</b> This player does not exist`
 
 Сообщение, если введённый игрок не найден
 
 ### `myself`
-- По умолчанию `<color:#ff7171><b>⁉</b> You can't ignore yourself`
 
 Сообщение, если игрок пытается игнорировать самого себя
 
 ### `he`
-- По умолчанию `<color:#ff7171><b>⁉</b> You can't write to him because he ignore you`
 
 Сообщение, если получатель игнорирует отправителя
 
 ### `you`
-- По умолчанию `<color:#ff7171><b>⁉</b> You can't write to him because you ignore him`
 
 Сообщение, если отправитель игнорирует получателя
 
 ### `format-true`
-- По умолчанию `<color:#ff7171>☹ You ignore <display_name>`
 
 Сообщение при успешном игнорировании
 
 ### `format-false`
-- По умолчанию `<color:#98FB98>☺ You unignore <display_name>`
 
 Сообщение при снятии игнорирования
 

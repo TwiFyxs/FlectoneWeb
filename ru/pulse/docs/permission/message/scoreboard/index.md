@@ -18,18 +18,8 @@ scoreboard:
 
 ## Параметры
 
-- [Сообщения](/ru/message/scoreboard/)
-- [Локализация](/ru/localizations/ru_ru/message/scoreboard/)
+- [Сообщения](/docs/message/scoreboard/)
+- [Локализация](/docs/localizations/ru_ru/message/scoreboard/)
 
-### `name`
-- По умолчанию `flectonepulse.module.message.seed`
-
-Название права
-
-### `type`
-- По умолчанию `TRUE`
-
-Тип права
-
-<!--@include: @/ru/parts/permission.md-->
+<!--@include: @/parts/permission/permissionTier3.md-->
 

@@ -25,24 +25,14 @@ dice:
 
 ## Параметры
 
-- [Комманда](/ru/command/dice/)
-- [Права](/ru/permission/command/dice/)
+- [Комманда](/docs/command/dice/)
+- [Права](/docs/permission/command/dice/)
 
 ### `symbols`
-- По умолчанию:
-```yaml
-1: "⚀"
-2: "⚁"
-3: "⚂"
-4: "⚃"
-5: "⚄"
-6: "⚅"
-```
 
 Список индексов (выпавшее число) и символов (кубики)
 
 ### `format`
-- По умолчанию `<fcolor:1>✎ <display_name> roll <message> (<sum>)`
 
 Формат сообщения, которое будет отправлено
 

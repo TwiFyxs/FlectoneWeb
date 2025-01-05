@@ -13,22 +13,21 @@
 ### По умолчанию
 ```yaml
 footer:
-  values:
-    - "<br><fcolor:1>ТПС <tps>, Онлайн <online><br>"
-    - "<br><fcolor:1><fcolor:1>Привет <fcolor:2><player></fcolor:2>!<br>"
+  lists:
+    - - " "
+      - "<fcolor:1>ТПС <tps>, Онлайн <online>"
+      - " "
+    - - " "
+      - "<fcolor:1>Привет <fcolor:2><player></fcolor:2>!"
+      - " "
 ```
 
 ## Параметры
 
-- [Сообщения](/ru/message/tab/footer/)
-- [Права](/ru/permission/message/tab/footer/)
+- [Сообщения](/docs/message/tab/footer/)
+- [Права](/docs/permission/message/tab/footer/)
 
-### `format`
-- По умолчанию:
-```yaml
-- "<br><fcolor:1>ТПС <tps>, Онлайн <online><br>"
-- "<br><fcolor:1><fcolor:1>Привет <fcolor:2><player></fcolor:2>!<br>"
-```
+### `lists`
 
-Список сообщений
+Список сообщений, где `- -` разделяет разные форматы
 

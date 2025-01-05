@@ -27,38 +27,35 @@ twitch:
   follow-channel:
     faseri4ka:
       - "stream start https://twitch.tv/faseri4ka"
+  destination:
+    type: CHAT
 ```
 
 ## Параметры
 
-- [Локализация](/ru/localizations/ru_ru/integration/twitch/)
-- [Права](/ru/permission/integration/twitch/)
+- [Локализация](/docs/localizations/ru_ru/integration/twitch/)
+- [Права](/docs/permission/integration/twitch/)
 
-### `enable`
-- По умолчанию `false`
+<!--@include: @/parts/enable.md-->
 
-::: warning Важно
+::: warning ПРЕДУПРЕЖДЕНИЕ
 - Перед включением, вставь **токен** и **ID клиента** Twitch
 - После включения, **ЖЕЛАТЕЛЬНО** перезагрузить сервер, иначе плагин может вызвать зависание
 :::
 
-Включает или выключает работоспособность модуля
-
 ### `client-id`
-- По умолчанию `пусто`
 
 [Идентификатор](https://twitchtokengenerator.com/) пользователя
 ![client id](/twitchclientid.png)
 
 ### `token`
-- По умолчанию `пусто`
 
 [Токен](https://twitchtokengenerator.com/) пользователя для подключения
 ![token](/twitchtoken.png)
 
 ### `message-channel`
 
-Список [типов сообщений](#типы-сообщений) и названий каналов на Twitch
+Список типов сообщений и названий каналов на Twitch
 
 ::: tip Например я хочу, чтобы из Minecraft отправлялось сообщение комманды `/ban` в Twitch
 1. Копирую названия каналов Twitch, в которые нужно отправить сообщение (`faseri4ka`)
@@ -69,8 +66,10 @@ message-channel:
     - "faseri4ka" // [!code highlight]
 ```
 
-Каналов может быть сколько угодно, главное, чтобы к ним был доступ у клиента из [секреты](/ru/secrets/twitch/)
+Каналов может быть сколько угодно, главное, чтобы к ним был доступ у клиента из [секреты](/docs/secrets/twitch/)
 :::
+
+<!--@include: @/parts/messageTag.md-->
 
 ### `follow-channel`
 
@@ -85,9 +84,9 @@ follow-channel:
     - "stream start https://twitch.tv/faseri4ka"
 ```
 
-- Каналов может быть до 10 одновременно, главное, чтобы к ним был доступ у клиента из [секреты](/ru/secrets/twitch/)
+- Каналов может быть до 10 одновременно, главное, чтобы к ним был доступ у клиента из [секреты](/docs/secrets/twitch/)
 - Комманд, при начале трансляции, может быть сколько угодно и какие угодно
 :::
 
-<!--@include: @/ru/parts/messagetag.md-->
+<!--@include: @/parts/destination.md-->
 

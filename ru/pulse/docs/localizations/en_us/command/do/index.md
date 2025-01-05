@@ -18,11 +18,10 @@ do:
 
 ## Параметры
 
-- [Комманда](/ru/command/do/)
-- [Права](/ru/permission/command/do/)
+- [Комманда](/docs/command/do/)
+- [Права](/docs/permission/command/do/)
 
 ### `format`
-- По умолчанию `<fcolor:1>✎ <message> (<i><display_name></i>)`
 
 Формат сообщения, которое будет отправлено
 

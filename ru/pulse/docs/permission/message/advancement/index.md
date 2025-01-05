@@ -21,34 +21,10 @@ advancement:
 
 ## Параметры
 
-- [Сообщения](/ru/message/advancement/)
-- [Локализация](/ru/localizations/ru_ru/message/advancement/)
+- [Сообщения](/docs/message/advancement/)
+- [Локализация](/docs/localizations/ru_ru/message/advancement/)
 
-### `name`
-- По умолчанию `flectonepulse.module.message.advancement`
+<!--@include: @/parts/permission/permissionTier3.md-->
+<!--@include: @/parts/permission/sound.md-->
 
-Название права
-
-### `type`
-- По умолчанию `TRUE`
-
-Тип права
-
-### `sound`
-
-Право для использования звука
-
-::: details Настройка
-#### `name`
-- По умолчанию `flectonepulse.module.message.advancement.sound`
-
-Название права
-
-#### `type`
-- По умолчанию `TRUE`
-
-Тип права
-:::
-
-<!--@include: @/ru/parts/permission.md-->
 

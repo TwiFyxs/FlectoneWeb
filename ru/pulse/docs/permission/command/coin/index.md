@@ -24,50 +24,10 @@ coin:
 
 ## Параметры
 
-- [Конфиг](/ru/command/coin/)
-- [Локализация](/ru/localizations/ru_ru/command/coin/)
+- [Конфиг](/docs/command/coin/)
+- [Локализация](/docs/localizations/ru_ru/command/coin/)
 
-### `name`
-- По умолчанию `flectonepulse.module.command.coin`
-
-Название права
-
-### `type`
-- По умолчанию `TRUE`
-
-Тип права
-
-### `cooldown-bypass`
-
-Право для игнорирования задержки между использованием
-
-::: details Настройка
-#### `name`
-- По умолчанию `flectonepulse.module.command.coin.cooldown.bypass`
-
-Название права
-
-#### `type`
-- По умолчанию `OP`
-
-Тип права
-:::
-
-### `sound`
-
-Право для использования звука
-
-::: details Настройка
-#### `name`
-- По умолчанию `flectonepulse.module.command.coin.sound`
-
-Название права
-
-#### `type`
-- По умолчанию `TRUE`
-
-Тип права
-:::
-
-<!--@include: @/ru/parts/permission.md-->
+<!--@include: @/parts/permission/permissionTier3.md-->
+<!--@include: @/parts/permission/cooldown.md-->
+<!--@include: @/parts/permission/sound.md-->
 

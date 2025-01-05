@@ -18,9 +18,6 @@ book:
 
 ## Параметры
 
-- [Права](/ru/permission/message/book/)
+- [Права](/docs/permission/message/book/)
 
-### `enable`
-- По умолчанию `true`
-
-Включает или выключает работоспособность модуля
+<!--@include: @/parts/enable.md-->

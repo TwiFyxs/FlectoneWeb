@@ -20,15 +20,11 @@ luckperms:
 
 ## Параметры
 
-- [Права](/ru/permission/integration/luckperms/)
+- [Права](/docs/permission/integration/luckperms/)
 
-### `enable`
-- По умолчанию `true`
-
-Включает или выключает работоспособность модуля
+<!--@include: @/parts/enable.md-->
 
 ### `tab-sort`
-- По умолчанию `false`
 
 Включает или выключает сортировку в ТАБе по [весу группы](https://luckperms.net/wiki/Weight)
 

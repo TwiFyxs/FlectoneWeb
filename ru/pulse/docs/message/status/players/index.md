@@ -21,26 +21,20 @@ players:
 
 ## Параметры
 
-- [Локализация](/ru/localizations/ru_ru/message/status/players/)
-- [Права](/ru/permission/message/status/players/)
+- [Локализация](/docs/localizations/ru_ru/message/status/players/)
+- [Права](/docs/permission/message/status/players/)
 
-### `enable`
-- По умолчанию `false`
-
-Включает или выключает работоспособность модуля
+<!--@include: @/parts/enable.md-->
 
 ### `control`
-- По умолчанию `true`
 
 Если включено, то игрока не будет впускать на сервер при большем количестве игроков, чем [указано](#max)
 
 ### `max`
-- По умолчанию `69`
 
 Максимальное количество игроков на сервере
 
 ### `online`
-- По умолчанию `-69`
 
 Число, которое позволяет указать любой онлайн на сервере
 

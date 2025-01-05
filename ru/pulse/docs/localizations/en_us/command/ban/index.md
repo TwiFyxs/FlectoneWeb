@@ -31,16 +31,14 @@ ban:
 
 ## Параметры
 
-- [Комманда](/ru/command/ban/)
-- [Права](/ru/permission/command/ban/)
+- [Комманда](/docs/command/ban/)
+- [Права](/docs/permission/command/ban/)
 
 ### `null-player`
-- По умолчанию `<color:#ff7171><b>⁉</b> This player does not exist`
 
 Сообщение, если введённый игрок не найден
 
 ### `null-time`
-- По умолчанию `<color:#ff7171><b>⁉</b> Incorrect time`
 
 Сообщение, если введено невозможное время
 
@@ -49,25 +47,18 @@ ban:
 ::: details Сообщения для временной блокировки
 
 #### `connection-attempt`
-- По умолчанию `<color:#ff7171>☠ Banned <target> tried to log in, <time> left`
 
 Сообщение, если заблокированный игрок пытался подключиться
 
 #### `global`
-- По умолчанию `<color:#ff7171><br>⏵ Player <target> has been banned for <time> <br>⏵ Reason: <message> <br>⏵ Moderator: <display_name><br>`
 
 Сообщение для всех
 
 #### `player`
-- По умолчанию `<color:#ff7171>☠ You are banned, <time> left <br>Reason: <message>`
 
 Сообщение для игрока
 
 #### `reasons`
-- По умолчанию
-```yaml
-default: "You have been banned from this server"
-```
 
 Список с ключами и значениями, где ключом является слово, а значением конкретная причина
 
@@ -86,25 +77,18 @@ random_kek: "Random reason"
 ::: details Сообщения для блокировки навсегда
 
 #### `connection-attempt`
-- По умолчанию `<color:#ff7171>☠ Permanently banned <target> tried to log in`
 
 Сообщение, если заблокированный игрок пытался подключиться
 
 #### `global`
-- По умолчанию `<color:#ff7171><br>⏵ Player <target> has been banned permanently <br>⏵ Reason: <message> <br>⏵ Moderator: <display_name><br>`
 
 Сообщение для всех
 
 #### `player`
-- По умолчанию `<color:#ff7171>☠ You are banned permanently <br>Reason: <message>`
 
 Сообщение для игрока
 
 #### `reasons`
-- По умолчанию
-```yaml
-default: "You have been banned permanent from this server"
-```
 
 Список с ключами и значениями, где ключом является слово, а значением конкретная причина
 

@@ -17,9 +17,6 @@ contact:
 
 ## Параметры
 
-- [Права](/ru/permission/message/contact/)
+- [Права](/docs/permission/message/contact/)
 
-### `enable`
-- По умолчанию `true`
-
-Включает или выключает работоспособность модуля и его наследников
+<!--@include: @/parts/enable.md-->

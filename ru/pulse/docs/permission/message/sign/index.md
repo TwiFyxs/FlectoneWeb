@@ -18,17 +18,7 @@ sign:
 
 ## Параметры
 
-- [Сообщения](/ru/message/sign/)
+- [Сообщения](/docs/message/sign/)
 
-### `name`
-- По умолчанию `flectonepulse.module.message.sign`
-
-Название права
-
-### `type`
-- По умолчанию `TRUE`
-
-Тип права
-
-<!--@include: @/ru/parts/permission.md-->
+<!--@include: @/parts/permission/permissionTier3.md-->
 

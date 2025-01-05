@@ -18,11 +18,10 @@ playerlistname:
 
 ## Параметры
 
-- [Сообщения](/ru/message/tab/playerlistname/)
-- [Права](/ru/permission/message/tab/playerlistname/)
+- [Сообщения](/docs/message/tab/playerlistname/)
+- [Права](/docs/permission/message/tab/playerlistname/)
 
 ### `format`
-- По умолчанию `<world_prefix>▋ <reset><vault_prefix><stream_prefix><fcolor:2><player><afk_suffix><vault_suffix>`
 
 Сообщение в списке ТАБа
 ![player list name](/playerlistname.png)

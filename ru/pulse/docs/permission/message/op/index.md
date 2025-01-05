@@ -21,34 +21,9 @@ op:
 
 ## Параметры
 
-- [Сообщения](/ru/message/op/)
-- [Локализация](/ru/localizations/ru_ru/message/op/)
+- [Сообщения](/docs/message/op/)
+- [Локализация](/docs/localizations/ru_ru/message/op/)
 
-### `name`
-- По умолчанию `flectonepulse.module.message.op`
-
-Название права
-
-### `type`
-- По умолчанию `TRUE`
-
-Тип права
-
-### `sound`
-
-Право для использования звука
-
-::: details Настройка
-#### `name`
-- По умолчанию `flectonepulse.module.message.op.sound`
-
-Название права
-
-#### `type`
-- По умолчанию `TRUE`
-
-Тип права
-:::
-
-<!--@include: @/ru/parts/permission.md-->
+<!--@include: @/parts/permission/permissionTier3.md-->
+<!--@include: @/parts/permission/sound.md-->
 

@@ -16,27 +16,15 @@ clear:
   enable: true
   sound:
     enable: false
-    type: "BLOCK_NOTE_BLOCK_BELL:1:1"
+  destination:
+    type: CHAT
 ```
 
 ## Параметры
 
-- [Локализация](/ru/localizations/ru_ru/message/clear/)
-- [Права](/ru/permission/message/clear/)
+- [Локализация](/docs/localizations/ru_ru/message/clear/)
+- [Права](/docs/permission/message/clear/)
 
-### `enable`
-- По умолчанию `true`
-
-Включает или выключает работоспособность модуля
-
-### `sound`
-- По умолчанию `false`
-
-Включает проигрывание звука при использовании
-
-::: details Настройка звука
-### `type`
-- По умолчанию `BLOCK_NOTE_BLOCK_BELL:1:1`
-
-Определяет тип (`BLOCK_NOTE_BLOCK_BELL`), громкость (`1`) и тональность (`1`) звука через `:`
-:::
+<!--@include: @/parts/enable.md-->
+<!--@include: @/parts/destination.md-->
+<!--@include: @/parts/sound.md-->

@@ -18,17 +18,7 @@ messagelist:
 
 ## Параметры
 
-- [Сообщения](/ru/message/objective/tabname/)
+- [Сообщения](/docs/message/objective/tabname/)
 
-### `name`
-- По умолчанию `flectonepulse.module.message.objective.tabname`
-
-Название права
-
-### `type`
-- По умолчанию `TRUE`
-
-Тип права
-
-<!--@include: @/ru/parts/permission.md-->
+<!--@include: @/parts/permission/permissionTier3.md-->
 

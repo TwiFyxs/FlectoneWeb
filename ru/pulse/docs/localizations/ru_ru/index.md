@@ -19,19 +19,21 @@ time:
 
 ## Параметры
 
-- [Сообщения](/ru/message/)
-- [Права](/ru/permissions/)
+- [Сообщения](/docs/message/)
+- [Права](/docs/permissions/)
 
 ### `cooldown`
-- По умолчанию `<color:#ff7171><b>⁉</b> Слишком быстро, попробуй через <time>`
 
 Сообщение, которое показывается при слишком частом использовании, если включен `cooldown`
 
 ### `time`
-- `format: "dd'д' HH'ч' mm'м' ss.SSS'с'"`
+
+Сообщения времени
+
+#### `format`
 
 Форматирование времени ([Apache DurationFormatUtils](https://commons.apache.org/proper/commons-lang/apidocs/org/apache/commons/lang3/time/DurationFormatUtils.html))
 
-- `zero: "0с"`
+#### `zero`
 
 Форматирование времени, если оно равно нулю

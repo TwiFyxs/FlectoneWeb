@@ -20,15 +20,10 @@ players:
 
 ## Параметры
 
-- [Сообщения](/ru/message/status/players/)
-- [Права](/ru/permission/message/status/players/)
+- [Сообщения](/docs/message/status/players/)
+- [Права](/docs/permission/message/status/players/)
 
 ### `samples`
-- По умолчанию:
-```yaml
-- name: "<players>"
-  id: null
-```
 
 Список игроков сервера. Плейсхолдер `<players>` добавляет всех игроков сервера к списку
 
@@ -57,13 +52,10 @@ samples:
 
 ::: warning ПРЕДУПРЕЖДЕНИЕ
 
-Можно использовать только [доступные цвета](#доступные-цвета) майнкрафта
-
+Можно использовать только доступные цвета
+<!--@include: @/parts/color.md-->
 :::
 
 ### `full`
-- По умолчанию `<color:#ff7171>Сервер полон`
 
 Сообщение при подключении на полный сервер
-
-<!--@include: @/ru/parts/color.md-->

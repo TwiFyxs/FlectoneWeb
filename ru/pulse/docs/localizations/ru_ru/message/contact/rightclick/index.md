@@ -18,10 +18,9 @@ rightclick:
 
 ## Параметры
 
-- [Сообщения](/ru/message/contact/rightclick/)
-- [Права](/ru/permission/message/contact/rightclick/)
+- [Сообщения](/docs/message/contact/rightclick/)
+- [Права](/docs/permission/message/contact/rightclick/)
 
 ### `format`
-- По умолчанию `<fcolor:1>◁ <display_name> ▷`
 
 Сообщение, которое будет отправлено игроку, нажавшему на другого игрока

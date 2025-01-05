@@ -14,29 +14,17 @@
 ```yaml
 enchant:
   enable: true
+  destination:
+    type: CHAT
   sound:
     enable: false
-    type: "BLOCK_NOTE_BLOCK_BELL:1:1"
 ```
 
 ## Параметры
 
-- [Локализация](/ru/localizations/ru_ru/message/enchant/)
-- [Права](/ru/permission/message/enchant/)
+- [Локализация](/docs/localizations/ru_ru/message/enchant/)
+- [Права](/docs/permission/message/enchant/)
 
-### `enable`
-- По умолчанию `true`
-
-Включает или выключает работоспособность модуля
-
-### `sound`
-- По умолчанию `false`
-
-Включает проигрывание звука при использовании
-
-::: details Настройка звука
-### `type`
-- По умолчанию `BLOCK_NOTE_BLOCK_BELL:1:1`
-
-Определяет тип (`BLOCK_NOTE_BLOCK_BELL`), громкость (`1`) и тональность (`1`) звука через `:`
-:::
+<!--@include: @/parts/enable.md-->
+<!--@include: @/parts/destination.md-->
+<!--@include: @/parts/sound.md-->

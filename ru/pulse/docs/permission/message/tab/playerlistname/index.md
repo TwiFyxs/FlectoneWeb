@@ -18,18 +18,8 @@ playerlistname:
 
 ## Параметры
 
-- [Сообщения](/ru/message/tab/playerlistname/)
-- [Локализация](/ru/localizations/ru_ru/message/tab/playerlistname/)
+- [Сообщения](/docs/message/tab/playerlistname/)
+- [Локализация](/docs/localizations/ru_ru/message/tab/playerlistname/)
 
-### `name`
-- По умолчанию `flectonepulse.module.message.tab.playerlistname`
-
-Название права
-
-### `type`
-- По умолчанию `TRUE`
-
-Тип права
-
-<!--@include: @/ru/parts/permission.md-->
+<!--@include: @/parts/permission/permissionTier3.md-->
 

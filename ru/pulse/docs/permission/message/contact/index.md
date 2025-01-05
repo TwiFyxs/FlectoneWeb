@@ -11,24 +11,14 @@
 
 ### По умолчанию
 ```yaml
-tab:
+contact:
   name: "flectonepulse.module.message.contact"
   type: TRUE
 ```
 
 ## Параметры
 
-- [Сообщения](/ru/tab/)
+- [Сообщения](/docs/contact/)
 
-### `name`
-- По умолчанию `flectonepulse.module.message.contact`
-
-Название права
-
-### `type`
-- По умолчанию `TRUE`
-
-Тип права
-
-<!--@include: @/ru/parts/permission.md-->
+<!--@include: @/parts/permission/permissionTier3.md-->
 

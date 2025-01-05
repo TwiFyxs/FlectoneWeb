@@ -24,50 +24,10 @@ ball:
 
 ## Параметры
 
-- [Конфиг](/ru/command/ball/)
-- [Локализация](/ru/localizations/ru_ru/command/ball/)
+- [Конфиг](/docs/command/ball/)
+- [Локализация](/docs/localizations/ru_ru/command/ball/)
 
-### `name`
-- По умолчанию `flectonepulse.module.command.ball`
-
-Название права
-
-### `type`
-- По умолчанию `TRUE`
-
-Тип права
-
-### `cooldown-bypass`
-
-Право для игнорирования задержки между использованием
-
-::: details Настройка
-#### `name`
-- По умолчанию `flectonepulse.module.command.ball.cooldown.bypass`
-
-Название права
-
-#### `type`
-- По умолчанию `OP`
-
-Тип права
-:::
-
-### `sound`
-
-Право для использования звука
-
-::: details Настройка
-#### `name`
-- По умолчанию `flectonepulse.module.command.ball.sound`
-
-Название права
-
-#### `type`
-- По умолчанию `TRUE`
-
-Тип права
-:::
-
-<!--@include: @/ru/parts/permission.md-->
+<!--@include: @/parts/permission/permissionTier3.md-->
+<!--@include: @/parts/permission/cooldown.md-->
+<!--@include: @/parts/permission/sound.md-->
 

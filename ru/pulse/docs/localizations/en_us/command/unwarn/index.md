@@ -20,20 +20,17 @@ unwarn:
 
 ## Параметры
 
-- [Комманда](/ru/command/unwarn/)
-- [Права](/ru/permission/command/unwarn/)
+- [Комманда](/docs/command/unwarn/)
+- [Права](/docs/permission/command/unwarn/)
 
 ### `null-player`
-- По умолчанию `<color:#ff7171><b>⁉</b> This player does not exist`
 
 Сообщение, если введённый игрок не найден
 
 ### `not-warned`
-- По умолчанию `<color:#ff7171><b>⁉</b> This player is not warned`
 
 Сообщение, если введённый игрок не имеет предупреждения
 
 ### `format`
-- По умолчанию `<color:#98FB98>☻ Player <display_name> unwarned`
 
 Сообщение при снятии предупреждения

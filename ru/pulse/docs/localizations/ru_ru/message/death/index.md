@@ -118,8 +118,8 @@ death:
 
 ## Параметры
 
-- [Сообщения](/ru/message/death/)
-- [Права](/ru/permission/message/death/)
+- [Сообщения](/docs/message/death/)
+- [Права](/docs/permission/message/death/)
 
 ### `types`
 

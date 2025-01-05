@@ -24,50 +24,10 @@ unban:
 
 ## Параметры
 
-- [Конфиг](/ru/command/unban/)
-- [Локализация](/ru/localizations/ru_ru/command/unban/)
+- [Конфиг](/docs/command/unban/)
+- [Локализация](/docs/localizations/ru_ru/command/unban/)
 
-### `name`
-- По умолчанию `flectonepulse.module.command.unban`
-
-Название права
-
-### `type`
-- По умолчанию `OP`
-
-Тип права
-
-### `cooldown-bypass`
-
-Право для игнорирования задержки между использованием
-
-::: details Настройка
-#### `name`
-- По умолчанию `flectonepulse.module.command.unban.cooldown.bypass`
-
-Название права
-
-#### `type`
-- По умолчанию `OP`
-
-Тип права
-:::
-
-### `sound`
-
-Право для использования звука
-
-::: details Настройка
-#### `name`
-- По умолчанию `flectonepulse.module.command.unban.sound`
-
-Название права
-
-#### `type`
-- По умолчанию `TRUE`
-
-Тип права
-:::
-
-<!--@include: @/ru/parts/permission.md-->
+<!--@include: @/parts/permission/permissionTier3.md-->
+<!--@include: @/parts/permission/cooldown.md-->
+<!--@include: @/parts/permission/sound.md-->
 

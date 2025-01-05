@@ -19,15 +19,8 @@ motd:
 
 ## Параметры
 
-- [Локализация](/ru/localizations/ru_ru/message/status/motd/)
-- [Права](/ru/permission/message/status/motd/)
+- [Локализация](/docs/localizations/ru_ru/message/status/motd/)
+- [Права](/docs/permission/message/status/motd/)
 
-### `enable`
-- По умолчанию `true`
-
-Включает или выключает работоспособность модуля
-
-### `random`
-- По умолчанию `true`
-
-Если включено, то сообщение будет выбираться случайным образом, иначе по порядку
+<!--@include: @/parts/enable.md-->
+<!--@include: @/parts/random.md-->

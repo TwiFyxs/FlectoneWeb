@@ -18,18 +18,8 @@ telegram:
 
 ## Параметры
 
-- [Интеграция](/ru/integration/telegram/)
-- [Локализация](/ru/localizations/ru_ru/integration/telegram/)
+- [Интеграция](/docs/integration/telegram/)
+- [Локализация](/docs/localizations/ru_ru/integration/telegram/)
 
-### `name`
-- По умолчанию `flectonepulse.module.integration.telegram`
-
-Название права
-
-### `type`
-- По умолчанию `TRUE`
-
-Тип права
-
-<!--@include: @/ru/parts/permission.md-->
+<!--@include: @/parts/permission/permissionTier3.md-->
 

@@ -18,18 +18,8 @@ brand:
 
 ## Параметры
 
-- [Сообщения](/ru/brand/)
-- [Локализация](/ru/localizations/ru_ru/brand/)
+- [Сообщения](/docs/brand/)
+- [Локализация](/docs/localizations/ru_ru/brand/)
 
-### `name`
-- По умолчанию `flectonepulse.module.server.brand`
-
-Название права
-
-### `type`
-- По умолчанию `TRUE`
-
-Тип права
-
-<!--@include: @/ru/parts/permission.md-->
+<!--@include: @/parts/permission/permissionTier3.md-->
 

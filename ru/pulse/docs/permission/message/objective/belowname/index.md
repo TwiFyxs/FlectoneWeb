@@ -18,17 +18,7 @@ belowname:
 
 ## Параметры
 
-- [Сообщения](/ru/message/objective/belowname/)
+- [Сообщения](/docs/message/objective/belowname/)
 
-### `name`
-- По умолчанию `flectonepulse.module.message.objective.belowname`
-
-Название права
-
-### `type`
-- По умолчанию `TRUE`
-
-Тип права
-
-<!--@include: @/ru/parts/permission.md-->
+<!--@include: @/parts/permission/permissionTier3.md-->
 

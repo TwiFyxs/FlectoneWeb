@@ -19,15 +19,13 @@ join:
 
 ## Параметры
 
-- [Сообщения](/ru/message/join/)
-- [Права](/ru/permission/message/join/)
+- [Сообщения](/docs/message/join/)
+- [Права](/docs/permission/message/join/)
 
 ### `format`
-- По умолчанию `<color:#4eff52>→ <display_name>`
 
 Сообщение при подключении на сервер
 
 ### `format-first-time`
-- По умолчанию `<color:#4eff52>→ <display_name> <fcolor:1>впервые тут!`
 
 Сообщение при первом подключении на сервер

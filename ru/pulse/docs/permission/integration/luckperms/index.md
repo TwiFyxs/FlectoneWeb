@@ -18,17 +18,7 @@ luckperms:
 
 ## Параметры
 
-- [Интеграция](/ru/integration/luckperms/)
+- [Интеграция](/docs/integration/luckperms/)
 
-### `name`
-- По умолчанию `flectonepulse.module.integration.luckperms`
-
-Название права
-
-### `type`
-- По умолчанию `TRUE`
-
-Тип права
-
-<!--@include: @/ru/parts/permission.md-->
+<!--@include: @/parts/permission/permissionTier3.md-->
 

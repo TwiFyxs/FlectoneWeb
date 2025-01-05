@@ -188,11 +188,10 @@ chatsetting:
 
 ## Параметры
 
-- [Комманда](/ru/command/chatsetting/)
-- [Права](/ru/permission/command/chatsetting/)
+- [Комманда](/docs/command/chatsetting/)
+- [Права](/docs/permission/command/chatsetting/)
 
 ### `no-permission`
-- По умолчанию `<color:#ff7171><b>⁉</b> No permission to change this setting`
 
 Сообщение, если для изменения настройки требуется определённое право
 
@@ -200,24 +199,20 @@ chatsetting:
 
 ::: details Сообщения об отключении
 #### `you`
-- По умолчанию `<color:#ff7171><b>⁉</b> Display of this command is disabled, check /chatsetting`
 
 Сообщение, если отправитель отключил комманду в `/chatsetting`
 
 #### `he`
-- По умолчанию `<color:#ff7171><b>⁉</b> He disabled this option via /chatsetting`
 
 Сообщение, если получатель отключил комманду в `/chatsetting`
 
 #### `server`
-- По умолчанию `<color:#ff7171><b>⁉</b> This command disabled on server`
 
 Сообщение, если сервер отключил комманду для `/chatsetting`
 
 :::
 
 ### `header`
-- По умолчанию `"            Chat Settings"`
 
 Название для GUI
 

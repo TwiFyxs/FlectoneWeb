@@ -18,18 +18,8 @@ footer:
 
 ## Параметры
 
-- [Сообщения](/ru/message/tab/footer/)
-- [Локализация](/ru/localizations/ru_ru/message/tab/footer/)
+- [Сообщения](/docs/message/tab/footer/)
+- [Локализация](/docs/localizations/ru_ru/message/tab/footer/)
 
-### `name`
-- По умолчанию `flectonepulse.module.message.tab.footer`
-
-Название права
-
-### `type`
-- По умолчанию `TRUE`
-
-Тип права
-
-<!--@include: @/ru/parts/permission.md-->
+<!--@include: @/parts/permission/permissionTier3.md-->
 

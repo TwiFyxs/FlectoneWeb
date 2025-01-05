@@ -18,17 +18,7 @@ plasmovoice:
 
 ## Параметры
 
-- [Интеграция](/ru/integration/plasmovoice/)
+- [Интеграция](/docs/integration/plasmovoice/)
 
-### `name`
-- По умолчанию `flectonepulse.module.integration.plasmovoice`
-
-Название права
-
-### `type`
-- По умолчанию `TRUE`
-
-Тип права
-
-<!--@include: @/ru/parts/permission.md-->
+<!--@include: @/parts/permission/permissionTier3.md-->
 

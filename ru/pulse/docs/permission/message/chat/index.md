@@ -37,51 +37,15 @@ chat:
 
 ## Параметры
 
-- [Сообщения](/ru/message/chat/)
-- [Локализация](/ru/localizations/ru_ru/message/chat/)
+- [Сообщения](/docs/message/chat/)
+- [Локализация](/docs/localizations/ru_ru/message/chat/)
 
-### `name`
-- По умолчанию `flectonepulse.module.message.chat`
-
-Название права
-
-### `type`
-- По умолчанию `TRUE`
-
-Тип права
+<!--@include: @/parts/permission/permissionTier3.md-->
 
 ### `types`
-- По умолчанию:
-```yaml
-local:
-  name: "flectonepulse.module.message.chat.local"
-  type: TRUE
-  cooldown-bypass:
-    name: "flectonepulse.module.message.chat.local.cooldown.bypass"
-    type: OP
-  sound:
-    name: "flectonepulse.module.message.chat.local.sound"
-    type: TRUE
-global:
-  name: "flectonepulse.module.message.chat.global"
-  type: TRUE
-  cooldown-bypass:
-    name: "flectonepulse.module.message.chat.global.cooldown.bypass"
-    type: OP
-  sound:
-    name: "flectonepulse.module.message.chat.global.sound"
-    type: TRUE
-```
 
 Список чатов и их прав
 
-#### `cooldown-bypass`
-
-Право для игнорирования задержки между использованием
-
-#### `sound`
-
-Право для использования звука
-
-<!--@include: @/ru/parts/permission.md-->
+<!--@include: @/parts/permission/cooldown.md-->
+<!--@include: @/parts/permission/sound.md-->
 

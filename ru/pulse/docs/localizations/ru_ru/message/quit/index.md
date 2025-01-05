@@ -19,15 +19,12 @@ quit:
 
 ## Параметры
 
-- [Сообщения](/ru/message/quit/)
-- [Права](/ru/permission/message/quit/)
+- [Сообщения](/docs/message/quit/)
+- [Права](/docs/permission/message/quit/)
 
 ### `format`
-- По умолчанию `<color:#ff4e4e>← <display_name>`
 
 Сообщение при отключении с сервера
 
 ### `format-first-time`
-- По умолчанию `<color:#ff4e4e>← <display_name> <fcolor:1>впервые вышел!`
-
 Сообщение при первом отключении с сервера   

@@ -114,87 +114,54 @@ format:
 
 ## Параметры
 
-- [Права](/ru/permission/message/format/)
+- [Права](/docs/permission/message/format/)
 
-### `enable`
-- По умолчанию `true`
-
-Включает или выключает работоспособность модуля и его наследников
+<!--@include: @/parts/enable.md-->
 
 ### `PING`
-- `enable: true`
-- `trigger: %ping%`
-  ![ping](/ping.png)
+![ping](/ping.png)
 
 ### `TPS`
-- `enable: true`
-- `trigger: %tps%`
-  ![tps](/tps.png)
+![tps](/tps.png)
 
 ### `ONLINE`
-- `enable: true`
-- `trigger: %online%`
-  ![online](/online.png)
+![online](/online.png)
 
 ### `COORDS`
-- `enable: true`
-- `trigger: %coords%`
-  ![coords](/coords.png)
+![coords](/coords.png)
 
 ### `STATS`
-- `enable: true`
-- `trigger: %stats%`
-  ![stats](/stats.png)
+![stats](/stats.png)
 
 ### `SKIN`
-- `enable: true`
-- `trigger: %skin%`
-  ![skin](/skin.png)
+![skin](/skin.png)
 
 ### `ITEM`
-- `enable: true`
-- `trigger: %item%`
-  ![item](/item.png)
+![item](/item.png)
 
 ### `URL`
-- `enable: true`
-- `trigger: "(?<!:\")((https?|ftp|gopher|telnet|file):((//)|(\\\\))+[\\w:#@%/;$()~_?+-=\\\\.&]*)"`
-  ![url](/url.png)
+![url](/url.png)
 
 ### `IMAGE`
-- `enable: true`
-- `trigger: "(?<!:\")((https?|ftp|gopher|telnet|file):\\/\\/(?:i\\.imgur\\.com|media\\.discordapp\\.net)\\/[\\w:#@%/;$()~_?+-=\\\\.&]*)"`
-  ![image](/image.png)
+![image](/image.png)
 
 ### `SPOILER`
-- `enable: true`
-- `trigger: "\\Q||\\E"`
-  ![spoiler](/spoiler.png)
+![spoiler](/spoiler.png)
 
 ### `BOLD`
-- `enable: true`
-- `trigger: "\\Q**\\E"`
-  ![bold](/bold.png)
+![bold](/bold.png)
 
 ### `ITALIC`
-- `enable: true`
-- `trigger: "\\Q##\\E"`
-  ![italic](/italic.png)
+![italic](/italic.png)
 
 ### `UNDERLINE`
-- `enable: true`
-- `trigger: "\\Q__\\E"`
-  ![underline](/underline.png)
+![underline](/underline.png)
 
 ### `OBFUSCATED`
-- `enable: true`
-- `trigger: "\\Q??\\E"`
-  ![obfuscated](/obfuscated.png)
+![obfuscated](/obfuscated.png)
 
 ### `STRIKETHROUGH`
-- `enable: true`
-- `trigger: "\\Q~~\\E"`
-  ![strikethrough](/strikethrough.png)
+![strikethrough](/strikethrough.png)
 
 ### [Остальные это Kyori теги](https://docs.advntr.dev/minimessage/format.html#standard-tags)
 

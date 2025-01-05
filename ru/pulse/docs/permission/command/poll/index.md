@@ -27,66 +27,19 @@ poll:
 
 ## Параметры
 
-- [Конфиг](/ru/command/poll/)
-- [Локализация](/ru/localizations/ru_ru/command/poll/)
+- [Конфиг](/docs/command/poll/)
+- [Локализация](/docs/localizations/ru_ru/command/poll/)
 
-### `name`
-- По умолчанию `flectonepulse.module.command.poll`
-
-Название права
-
-### `type`
-- По умолчанию `TRUE`
-
-Тип права
+<!--@include: @/parts/permission/permissionTier3.md-->
 
 ### `create`
 
 Право для создания голосований
 
 ::: details Настройка
-#### `name`
-- По умолчанию `flectonepulse.module.command.poll.create`
-
-Название права
-
-#### `type`
-- По умолчанию `OP`
-
-Тип права
+<!--@include: @/parts/permission/permissionTier4.md-->
 :::
 
-### `cooldown-bypass`
-
-Право для игнорирования задержки между использованием
-
-::: details Настройка
-#### `name`
-- По умолчанию `flectonepulse.module.command.poll.cooldown.bypass`
-
-Название права
-
-#### `type`
-- По умолчанию `OP`
-
-Тип права
-:::
-
-### `sound`
-
-Право для использования звука
-
-::: details Настройка
-#### `name`
-- По умолчанию `flectonepulse.module.command.poll.sound`
-
-Название права
-
-#### `type`
-- По умолчанию `TRUE`
-
-Тип права
-:::
-
-<!--@include: @/ru/parts/permission.md-->
+<!--@include: @/parts/permission/cooldown.md-->
+<!--@include: @/parts/permission/sound.md-->
 

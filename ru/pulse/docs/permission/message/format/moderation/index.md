@@ -18,15 +18,7 @@ moderation:
 
 ## Параметры
 
-- [Локализация](/ru/localizations/ru_ru/message/format/moderation/)
+- [Локализация](/docs/localizations/ru_ru/message/format/moderation/)
 
-### `name`
-- По умолчанию `flectonepulse.module.message.format.moderation`
-
-Название права
-
-### `type`
-- По умолчанию `TRUE`
-
-Тип права
+<!--@include: @/parts/permission/permissionTier3.md-->
 

@@ -18,18 +18,8 @@ spoiler:
 
 ## Параметры
 
-- [Сообщения](/ru/message/format/spoiler/)
-- [Локализация](/ru/localizations/ru_ru/message/format/spoiler/)
+- [Сообщения](/docs/message/format/spoiler/)
+- [Локализация](/docs/localizations/ru_ru/message/format/spoiler/)
 
-### `name`
-- По умолчанию `flectonepulse.module.message.format.spoiler`
-
-Название права
-
-### `type`
-- По умолчанию `TRUE`
-
-Тип права
-
-<!--@include: @/ru/parts/permission.md-->
+<!--@include: @/parts/permission/permissionTier3.md-->
 

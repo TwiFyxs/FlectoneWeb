@@ -19,16 +19,14 @@ translateto:
 
 ## Параметры
 
-- [Комманда](/ru/command/translateto/)
-- [Права](/ru/permission/command/translateto/)
+- [Комманда](/docs/command/translateto/)
+- [Права](/docs/permission/command/translateto/)
 
 ### `null-or-error`
-- По умолчанию `<color:#ff7171><b>⁉</b> Error, you may have specified an unsupported language`
 
 Сообщение, если произошла ошибка при переводе
 
 ### `format`
-- По умолчанию `<fcolor:1>📖 [<language>] <display_name> translated → <fcolor:2><message>`
 
 Формат сообщения, которое будет отправлено
 

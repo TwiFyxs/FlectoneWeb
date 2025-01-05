@@ -22,30 +22,20 @@ tabname:
 
 ## Параметры
 
-- [Права](/ru/permission/message/objective/tabname/)
+- [Права](/docs/permission/message/objective/tabname/)
 
-### `enable`
-- По умолчанию `false`
-
-Включает или выключает работоспособность модуля
+<!--@include: @/parts/enable.md-->
 
 ### `mode`
 - По умолчанию `PING`
 
-Режим цифрового отображения значения из [доступных](#режимы-значений)
+Режим цифрового отображения значения из доступных
+
+<!--@include: @/parts/objective.md-->
 
 ::: tip Например режим `PING`
 Значит будет возвращаться пинг игрока
-![player list](/playerlist.png)
+![below name](/belowname.png)
 :::
 
-### `ticker`
-- `enable: true`
-
-Если включено, то изменяет значение каждый промежуток времени
-
-- `period: 100`
-
-Как часто в [тиках](https://ru.minecraft.wiki/w/%D0%A2%D0%B0%D0%BA%D1%82) нужно изменять значение
-
-<!--@include: @/ru/parts/objective.md-->
+<!--@include: @/parts/ticker.md-->

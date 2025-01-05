@@ -18,17 +18,7 @@ color:
 
 ## Параметры
 
-- [Сообщения](/ru/message/format/color/)
+- [Сообщения](/docs/message/format/color/)
 
-### `name`
-- По умолчанию `flectonepulse.module.message.format.color`
-
-Название права
-
-### `type`
-- По умолчанию `TRUE`
-
-Тип права
-
-<!--@include: @/ru/parts/permission.md-->
+<!--@include: @/parts/permission/permissionTier3.md-->
 

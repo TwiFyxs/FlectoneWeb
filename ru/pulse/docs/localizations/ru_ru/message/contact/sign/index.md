@@ -18,10 +18,9 @@ sign:
 
 ## Параметры
 
-- [Сообщения](/ru/message/contact/sign/)
-- [Права](/ru/permission/message/contact/sign/)
+- [Сообщения](/docs/message/contact/sign/)
+- [Права](/docs/permission/message/contact/sign/)
 
 ### `format`
-- По умолчанию `<dye><italic>#<player>`
 
 Сообщение, которое будет занесено в описание предмета, как подпись

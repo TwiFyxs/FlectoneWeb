@@ -18,10 +18,9 @@ spit:
 
 ## Параметры
 
-- [Сообщения](/ru/message/contact/spit/)
-- [Права](/ru/permission/message/contact/spit/)
+- [Сообщения](/docs/message/contact/spit/)
+- [Права](/docs/permission/message/contact/spit/)
 
 ### `format`
-- По умолчанию `<fcolor:1>🫐 Тебя обплевал <display_name>!`
 
 Сообщение игроку, которого обплевали

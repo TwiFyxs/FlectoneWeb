@@ -21,34 +21,9 @@ gamemode:
 
 ## Параметры
 
-- [Сообщения](/ru/message/gamemode/)
-- [Локализация](/ru/localizations/ru_ru/message/gamemode/)
+- [Сообщения](/docs/message/gamemode/)
+- [Локализация](/docs/localizations/ru_ru/message/gamemode/)
 
-### `name`
-- По умолчанию `flectonepulse.module.message.gamemode`
-
-Название права
-
-### `type`
-- По умолчанию `TRUE`
-
-Тип права
-
-### `sound`
-
-Право для использования звука
-
-::: details Настройка
-#### `name`
-- По умолчанию `flectonepulse.module.message.gamemode.sound`
-
-Название права
-
-#### `type`
-- По умолчанию `TRUE`
-
-Тип права
-:::
-
-<!--@include: @/ru/parts/permission.md-->
+<!--@include: @/parts/permission/permissionTier3.md-->
+<!--@include: @/parts/permission/sound.md-->
 

@@ -18,17 +18,7 @@ command:
 
 ## Параметры
 
-- [Конфиг](/ru/command/)
+- [Конфиг](/docs/command/)
 
-### `name`
-- По умолчанию `flectonepulse.module.command`
-
-Название права
-
-### `type`
-- По умолчанию `TRUE`
-
-Тип права
-
-<!--@include: @/ru/parts/permission.md-->
+<!--@include: @/parts/permission/permissionTier3.md-->
 

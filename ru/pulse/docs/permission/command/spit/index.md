@@ -24,49 +24,9 @@ spit:
 
 ## Параметры
 
-- [Конфиг](/ru/command/spit/)
+- [Конфиг](/docs/command/spit/)
 
-### `name`
-- По умолчанию `flectonepulse.module.command.spit`
-
-Название права
-
-### `type`
-- По умолчанию `TRUE`
-
-Тип права
-
-### `cooldown-bypass`
-
-Право для игнорирования задержки между использованием
-
-::: details Настройка
-#### `name`
-- По умолчанию `flectonepulse.module.command.spit.cooldown.bypass`
-
-Название права
-
-#### `type`
-- По умолчанию `OP`
-
-Тип права
-:::
-
-### `sound`
-
-Право для использования звука
-
-::: details Настройка
-#### `name`
-- По умолчанию `flectonepulse.module.command.spit.sound`
-
-Название права
-
-#### `type`
-- По умолчанию `TRUE`
-
-Тип права
-:::
-
-<!--@include: @/ru/parts/permission.md-->
+<!--@include: @/parts/permission/permissionTier3.md-->
+<!--@include: @/parts/permission/cooldown.md-->
+<!--@include: @/parts/permission/sound.md-->
 

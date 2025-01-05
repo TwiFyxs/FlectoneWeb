@@ -28,31 +28,13 @@ knock:
 
 ## Параметры
 
-- [Сообщения](/ru/message/contact/knock/)
+- [Сообщения](/docs/message/contact/knock/)
 
-### `name`
-- По умолчанию `flectonepulse.module.message.contact.knock`
-
-Название права
-
-### `type`
-- По умолчанию `TRUE`
-
-Тип права
+<!--@include: @/parts/permission/permissionTier3.md-->
 
 ### `types`
-- По умолчанию:
-```yaml
-types:
-  GLASS:
-    name: "flectonepulse.module.message.contact.knock.glass.sound"
-    type: TRUE
-  DOOR:
-    name: "flectonepulse.module.message.contact.knock.door.sound"
-    type: TRUE
-```
 
 Список названий звуков для стука и их права
 
-<!--@include: @/ru/parts/permission.md-->
+<!--@include: @/parts/permission/cooldown.md-->
 

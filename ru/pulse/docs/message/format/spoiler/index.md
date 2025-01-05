@@ -24,16 +24,12 @@ spoiler:
 
 ## Параметры
 
-- [Локализация](/ru/localizations/ru_ru/message/format/spoiler/)
-- [Права](/ru/permission/message/format/spoiler/)
+- [Локализация](/docs/localizations/ru_ru/message/format/spoiler/)
+- [Права](/docs/permission/message/format/spoiler/)
 
-### `enable`
-- По умолчанию `true`
-
-Включает или выключает работоспособность модуля
+<!--@include: @/parts/enable.md-->
 
 ### `color`
-- По умолчанию `<fcolor:2>`
 
 Определяет цвет сообщения, содержащее спойлер
 

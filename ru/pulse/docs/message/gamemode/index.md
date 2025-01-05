@@ -14,29 +14,18 @@
 ```yaml
 gamemode:
   enable: true
+  destination:
+    type: CHAT
   sound:
     enable: false
-    type: "BLOCK_NOTE_BLOCK_BELL:1:1"
 ```
 
 ## Параметры
 
-- [Локализация](/ru/localizations/ru_ru/message/gamemode/)
-- [Права](/ru/permission/message/gamemode/)
+- [Локализация](/docs/localizations/ru_ru/message/gamemode/)
+- [Права](/docs/permission/message/gamemode/)
 
-### `enable`
-- По умолчанию `true`
+<!--@include: @/parts/enable.md-->
+<!--@include: @/parts/destination.md-->
+<!--@include: @/parts/sound.md-->
 
-Включает или выключает работоспособность модуля
-
-### `sound`
-- По умолчанию `false`
-
-Включает проигрывание звука при использовании
-
-::: details Настройка звука
-### `type`
-- По умолчанию `BLOCK_NOTE_BLOCK_BELL:1:1`
-
-Определяет тип (`BLOCK_NOTE_BLOCK_BELL`), громкость (`1`) и тональность (`1`) звука через `:`
-:::

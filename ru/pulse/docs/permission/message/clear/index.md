@@ -21,34 +21,9 @@ clear:
 
 ## Параметры
 
-- [Сообщения](/ru/message/clear/)
-- [Локализация](/ru/localizations/ru_ru/message/clear/)
+- [Сообщения](/docs/message/clear/)
+- [Локализация](/docs/localizations/ru_ru/message/clear/)
 
-### `name`
-- По умолчанию `flectonepulse.module.message.clear`
-
-Название права
-
-### `type`
-- По умолчанию `TRUE`
-
-Тип права
-
-### `sound`
-
-Право для использования звука
-
-::: details Настройка
-#### `name`
-- По умолчанию `flectonepulse.module.message.clear.sound`
-
-Название права
-
-#### `type`
-- По умолчанию `TRUE`
-
-Тип права
-:::
-
-<!--@include: @/ru/parts/permission.md-->
+<!--@include: @/parts/permission/permissionTier3.md-->
+<!--@include: @/parts/permission/sound.md-->
 

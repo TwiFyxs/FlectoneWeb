@@ -43,12 +43,9 @@ emoji:
 
 ## Параметры
 
-- [Права](/ru/permission/message/format/emoji/)
+- [Права](/docs/permission/message/format/emoji/)
 
-### `enable`
-- По умолчанию `true`
-
-Включает или выключает работоспособность модуля
+<!--@include: @/parts/enable.md-->
 
 ### `values`
 

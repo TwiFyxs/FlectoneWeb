@@ -21,34 +21,9 @@ quit:
 
 ## Параметры
 
-- [Сообщения](/ru/message/quit/)
-- [Локализация](/ru/localizations/ru_ru/message/quit/)
+- [Сообщения](/docs/message/quit/)
+- [Локализация](/docs/localizations/ru_ru/message/quit/)
 
-### `name`
-- По умолчанию `flectonepulse.module.message.quit`
-
-Название права
-
-### `type`
-- По умолчанию `TRUE`
-
-Тип права
-
-### `sound`
-
-Право для использования звука
-
-::: details Настройка
-#### `name`
-- По умолчанию `flectonepulse.module.message.quit.sound`
-
-Название права
-
-#### `type`
-- По умолчанию `TRUE`
-
-Тип права
-:::
-
-<!--@include: @/ru/parts/permission.md-->
+<!--@include: @/parts/permission/permissionTier3.md-->
+<!--@include: @/parts/permission/sound.md-->
 

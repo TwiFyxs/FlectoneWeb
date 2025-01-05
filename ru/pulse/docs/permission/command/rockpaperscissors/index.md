@@ -24,50 +24,10 @@ rockpaperscissors:
 
 ## Параметры
 
-- [Конфиг](/ru/command/rockpaperscissors/)
-- [Локализация](/ru/localizations/ru_ru/command/rockpaperscissors/)
+- [Конфиг](/docs/command/rockpaperscissors/)
+- [Локализация](/docs/localizations/ru_ru/command/rockpaperscissors/)
 
-### `name`
-- По умолчанию `flectonepulse.module.command.rockpaperscissors`
-
-Название права
-
-### `type`
-- По умолчанию `TRUE`
-
-Тип права
-
-### `cooldown-bypass`
-
-Право для игнорирования задержки между использованием
-
-::: details Настройка
-#### `name`
-- По умолчанию `flectonepulse.module.command.rockpaperscissors.cooldown.bypass`
-
-Название права
-
-#### `type`
-- По умолчанию `OP`
-
-Тип права
-:::
-
-### `sound`
-
-Право для использования звука
-
-::: details Настройка
-#### `name`
-- По умолчанию `flectonepulse.module.command.rockpaperscissors.sound`
-
-Название права
-
-#### `type`
-- По умолчанию `TRUE`
-
-Тип права
-:::
-
-<!--@include: @/ru/parts/permission.md-->
+<!--@include: @/parts/permission/permissionTier3.md-->
+<!--@include: @/parts/permission/cooldown.md-->
+<!--@include: @/parts/permission/sound.md-->
 

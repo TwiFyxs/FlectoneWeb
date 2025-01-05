@@ -21,34 +21,9 @@ spawnpoint:
 
 ## Параметры
 
-- [Сообщения](/ru/message/spawnpoint/)
-- [Локализация](/ru/localizations/ru_ru/message/spawnpoint/)
+- [Сообщения](/docs/message/spawnpoint/)
+- [Локализация](/docs/localizations/ru_ru/message/spawnpoint/)
 
-### `name`
-- По умолчанию `flectonepulse.module.message.spawnpoint`
-
-Название права
-
-### `type`
-- По умолчанию `TRUE`
-
-Тип права
-
-### `sound`
-
-Право для использования звука
-
-::: details Настройка
-#### `name`
-- По умолчанию `flectonepulse.module.message.spawnpoint.sound`
-
-Название права
-
-#### `type`
-- По умолчанию `TRUE`
-
-Тип права
-:::
-
-<!--@include: @/ru/parts/permission.md-->
+<!--@include: @/parts/permission/permissionTier3.md-->
+<!--@include: @/parts/permission/sound.md-->
 

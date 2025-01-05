@@ -17,9 +17,6 @@ objective:
 
 ## Параметры
 
-- [Права](/ru/permission/message/objective/)
+- [Права](/docs/permission/message/objective/)
 
-### `enable`
-- По умолчанию `true`
-
-Включает или выключает работоспособность модуля и его наследников
+<!--@include: @/parts/enable.md-->

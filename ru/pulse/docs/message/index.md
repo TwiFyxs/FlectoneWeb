@@ -15,10 +15,7 @@ enable: true
 
 ## Параметры
 
-- [Локализация](/ru/localizations/ru_ru/message/)
-- [Права](/ru/permission/message/)
+- [Локализация](/docs/localizations/ru_ru/message/)
+- [Права](/docs/permission/message/)
 
-### `enable`
-- По умолчанию `true`
-
-Включает или выключает работоспособность модуля
+<!--@include: @/parts/enable.md-->

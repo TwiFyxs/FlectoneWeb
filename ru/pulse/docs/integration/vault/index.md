@@ -17,10 +17,7 @@ vault:
 
 ## Параметры
 
-- [Права](/ru/permission/integration/vault/)
+- [Права](/docs/permission/integration/vault/)
 
-### `enable`
-- По умолчанию `true`
-
-Включает или выключает работоспособность модуля
+<!--@include: @/parts/enable.md-->
 

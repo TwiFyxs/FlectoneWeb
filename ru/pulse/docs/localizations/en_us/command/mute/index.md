@@ -23,24 +23,18 @@ mute:
 
 ## Параметры
 
-- [Комманда](/ru/command/mute/)
-- [Права](/ru/permission/command/mute/)
+- [Комманда](/docs/command/mute/)
+- [Права](/docs/permission/command/mute/)
 
 ### `null-player`
-- По умолчанию `<color:#ff7171><b>⁉</b> This player does not exist`
 
 Сообщение, если введённый игрок не найден
 
 ### `null-time`
-- По умолчанию `<color:#ff7171><b>⁉</b> Incorrect time`
 
 Сообщение, если введено невозможное время
 
 ### `reasons`
-- По умолчанию
-```yaml
-default: "You have been muted on this server"
-```
 
 Список с ключами и значениями, где ключом является слово, а значением конкретная причина
 
@@ -54,12 +48,10 @@ random_kek: "Random reason"
 :::
 
 ### `global`
-- По умолчанию `<color:#ff7171><br>⏵ Player <target> has been muted for <time> <br>⏵ Reason: <message> <br>⏵ Moderator: <display_name><br>`
 
 Сообщение для всех
 
 ### `player`
-- По умолчанию `<color:#ff7171>☠ You are muted, <time> left. Reason: <message>`
 
 Сообщение для игрока
 

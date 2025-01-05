@@ -22,19 +22,14 @@ kick:
 
 ## Параметры
 
-- [Комманда](/ru/command/kick/)
-- [Права](/ru/permission/command/kick/)
+- [Комманда](/docs/command/kick/)
+- [Права](/docs/permission/command/kick/)
 
 ### `null-player`
-- По умолчанию `<color:#ff7171><b>⁉</b> This player does not exist`
 
 Сообщение, если введённый игрок не найден
 
 #### `reasons`
-- По умолчанию
-```yaml
-default: "Kicked by an operator"
-```
 
 Список с ключами и значениями, где ключом является слово, а значением конкретная причина
 
@@ -49,12 +44,10 @@ random_kek: "Random reason"
 :::
 
 ### `global`
-- По умолчанию `<color:#ff7171><br>⏵ Player <target> was kicked <br>⏵ Reason: <message> <br>⏵ Moderator: <display_name><br>`
 
 Сообщение для всех
 
 ### `player`
-- По умолчанию `<color:#ff7171>☠ You were kicked by <moderator> <br>Reason: <message>`
 
 Сообщение для игрока
 

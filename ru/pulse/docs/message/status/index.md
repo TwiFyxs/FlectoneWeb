@@ -17,9 +17,6 @@ status:
 
 ## Параметры
 
-- [Права](/ru/permission/message/status/)
+- [Права](/docs/permission/message/status/)
 
-### `enable`
-- По умолчанию `true`
-
-Включает или выключает работоспособность модуля и его наследников
+<!--@include: @/parts/enable.md-->

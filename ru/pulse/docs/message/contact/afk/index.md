@@ -22,6 +22,8 @@ afk:
   delay: 3000
   ignore:
     - "afk"
+  destination:
+    type: CHAT
   ticker:
     enable: true
     period: 20
@@ -29,26 +31,17 @@ afk:
 
 ## Параметры
 
-- [Локализация](/ru/localizations/ru_ru/message/contact/afk/)
-- [Права](/ru/permission/message/contact/afk/)
+- [Локализация](/docs/localizations/ru_ru/message/contact/afk/)
+- [Права](/docs/permission/message/contact/afk/)
 
-### `enable`
-- По умолчанию `true`
-
-Включает или выключает работоспособность модуля
-
-### `range`
-- По умолчанию `-1`
-
-[Диапазон](#виды-диапазонов), насколько далеко в блоках отобразится сообщение
+<!--@include: @/parts/enable.md-->
+<!--@include: @/parts/range.md-->
 
 ### `delay`
-- По умолчанию `3000`
 
 Сколько времени в [тиках](https://ru.minecraft.wiki/w/%D0%A2%D0%B0%D0%BA%D1%82) игрок ничего не должен делать, чтобы встать в АФК
 
 ### `ignore`
-- По умолчанию `afk`
 
 Список действий, которые игнорируются и не влияют на режим АФК
 
@@ -62,13 +55,5 @@ afk:
 Если я впишу в список комманду `tell` и игрок будет в режиме АФК, то он сможет использовать комманду `tell` и его не выкинет с режима АФК
 :::
 
-### `ticker`
-- `enable: true`
-
-Нужно ли проверять что игрок вернулся или встал в АФК
-
-- `period: 20`
-
-Как часто в [тиках](https://ru.minecraft.wiki/w/%D0%A2%D0%B0%D0%BA%D1%82) нужно проверять, что игрок АФК или нет
-
-<!--@include: @/ru/parts/range.md-->
+<!--@include: @/parts/destination.md-->
+<!--@include: @/parts/ticker.md-->

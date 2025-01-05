@@ -20,21 +20,18 @@ helper:
 
 ## Параметры
 
-- [Комманда](/ru/command/helper/)
-- [Права](/ru/permission/command/helper/)
+- [Комманда](/docs/command/helper/)
+- [Права](/docs/permission/command/helper/)
 
 ### `null-helper`
-- По умолчанию `<color:#ff7171><b>⁉</b> There are no people who can help you`
 
 Сообщение, если на сервере нет людей, которые смогут помочь
 
 ### `global`
-- По умолчанию `<fcolor:2>👤 <display_name> needs help ⏩ <fcolor:1><message>`
 
 Сообщение для тех, кто должен помочь
 
 ### `player`
-- По умолчанию `<fcolor:2>👤 Request sent, awaiting reply`
 
 Сообщение для игрока
 

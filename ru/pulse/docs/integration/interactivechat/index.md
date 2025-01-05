@@ -17,10 +17,7 @@ interactivechat:
 
 ## Параметры
 
-- [Права](/ru/permission/integration/interactivechat/)
+- [Права](/docs/permission/integration/interactivechat/)
 
-### `enable`
-- По умолчанию `true`
-
-Включает или выключает работоспособность модуля
+<!--@include: @/parts/enable.md-->
 

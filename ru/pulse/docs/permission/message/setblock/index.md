@@ -21,34 +21,9 @@ setblock:
 
 ## Параметры
 
-- [Сообщения](/ru/message/setblock/)
-- [Локализация](/ru/localizations/ru_ru/message/setblock/)
+- [Сообщения](/docs/message/setblock/)
+- [Локализация](/docs/localizations/ru_ru/message/setblock/)
 
-### `name`
-- По умолчанию `flectonepulse.module.message.setblock`
-
-Название права
-
-### `type`
-- По умолчанию `TRUE`
-
-Тип права
-
-### `sound`
-
-Право для использования звука
-
-::: details Настройка
-#### `name`
-- По умолчанию `flectonepulse.module.message.setblock.sound`
-
-Название права
-
-#### `type`
-- По умолчанию `TRUE`
-
-Тип права
-:::
-
-<!--@include: @/ru/parts/permission.md-->
+<!--@include: @/parts/permission/permissionTier3.md-->
+<!--@include: @/parts/permission/sound.md-->
 

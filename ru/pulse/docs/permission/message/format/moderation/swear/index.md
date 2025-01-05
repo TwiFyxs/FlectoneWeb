@@ -27,65 +27,25 @@ swear:
 
 ## Параметры
 
-- [Сообщения](/ru/message/format/moderation/swear/)
-- [Локализация](/ru/localizations/ru_ru/message/format/moderation/swear/)
+- [Сообщения](/docs/message/format/moderation/swear/)
+- [Локализация](/docs/localizations/ru_ru/message/format/moderation/swear/)
 
-### `name`
-- По умолчанию `flectonepulse.module.message.format.moderation.swear`
-
-Название права
-
-### `type`
-- По умолчанию `TRUE`
-
-Тип права
+<!--@include: @/parts/permission/permissionTier3.md-->
 
 ### `bypass`
 
 Право для игнорирования форматирования
 
 ::: details Настройка
-#### `name`
-- По умолчанию `flectonepulse.module.message.format.moderation.swear.bypass`
-
-Название права
-
-#### `type`
-- По умолчанию `OP`
-
-Тип права
+<!--@include: @/parts/permission/permissionTier4.md-->
 :::
 
 ### `see`
 
-Право для просмотра содержимого в запрещённом слое
+Право для просмотра содержимого в запрещённом слове
 ::: details Настройка
-#### `name`
-- По умолчанию `flectonepulse.module.message.format.moderation.swear.see`
-
-Название права
-
-#### `type`
-- По умолчанию `OP`
-
-Тип права
+<!--@include: @/parts/permission/permissionTier4.md-->
 :::
 
-### `sound`
-
-Право для использования звука
-
-::: details Настройка
-#### `name`
-- По умолчанию `flectonepulse.module.message.format.moderation.swear.sound`
-
-Название права
-
-#### `type`
-- По умолчанию `TRUE`
-
-Тип права
-:::
-
-<!--@include: @/ru/parts/permission.md-->
+<!--@include: @/parts/permission/sound.md-->
 

@@ -17,35 +17,21 @@ mention:
   trigger: "@"
   sound:
     enable: true
-    type: "ENTITY_EXPERIENCE_ORB_PICKUP:0.1:0.1"
 ```
 
 ## Параметры
 
-- [Локализация](/ru/localizations/ru_ru/message/format/mention/)
-- [Права](/ru/permission/message/format/mention/)
+- [Локализация](/docs/localizations/ru_ru/message/format/mention/)
+- [Права](/docs/permission/message/format/mention/)
 
-### `enable`
-- По умолчанию `true`
-
-Включает или выключает работоспособность модуля
+<!--@include: @/parts/enable.md-->
 
 ### `trigger`
-- По умолчанию `@`
 
 Символ, с которого должно начинаться сообщение упоминания
 ::: tip Например
 Если я хочу упомянуть `Flectone`, то я должен написать `@Flectone`
 ![mention](/mention.png)
 :::
-### `sound`
-- По умолчанию `true`
 
-Включает проигрывание звука при использовании
-
-::: details Настройка звука
-### `type`
-- По умолчанию `ENTITY_EXPERIENCE_ORB_PICKUP:0.1:0.1`
-
-Определяет тип (`ENTITY_EXPERIENCE_ORB_PICKUP`), громкость (`0.1`) и тональность (`0.1`) звука через `:`
-:::
+<!--@include: @/parts/sound.md-->

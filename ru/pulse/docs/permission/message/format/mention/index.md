@@ -24,50 +24,18 @@ mention:
 
 ## Параметры
 
-- [Сообщения](/ru/message/format/mention/)
-- [Локализация](/ru/localizations/ru_ru/message/format/mention/)
+- [Сообщения](/docs/message/format/mention/)
+- [Локализация](/docs/localizations/ru_ru/message/format/mention/)
 
-### `name`
-- По умолчанию `flectonepulse.module.message.format.mention`
-
-Название права
-
-### `type`
-- По умолчанию `TRUE`
-
-Тип права
+<!--@include: @/parts/permission/permissionTier3.md-->
 
 ### `bypass`
 
-Право для игнорирования форматирования
+Право для игнорирования упоминания
 
 ::: details Настройка
-#### `name`
-- По умолчанию `flectonepulse.module.message.format.mention.bypass`
-
-Название права
-
-#### `type`
-- По умолчанию `OP`
-
-Тип права
+<!--@include: @/parts/permission/permissionTier4.md-->
 :::
 
-### `sound`
-
-Право для использования звука
-
-::: details Настройка
-#### `name`
-- По умолчанию `flectonepulse.module.message.format.mention.sound`
-
-Название права
-
-#### `type`
-- По умолчанию `TRUE`
-
-Тип права
-:::
-
-<!--@include: @/ru/parts/permission.md-->
+<!--@include: @/parts/permission/sound.md-->
 

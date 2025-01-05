@@ -15,10 +15,7 @@ enable: true
 
 ## Параметры
 
-- [Локализация](/ru/localizations/ru_ru/command/)
-- [Права](/ru/permission/command/)
+- [Локализация](/docs/localizations/ru_ru/command/)
+- [Права](/docs/permission/command/)
 
-### `enable`
-- По умолчанию `true`
-
-Включает или выключает работоспособность модуля
+<!--@include: @/parts/enable.md-->

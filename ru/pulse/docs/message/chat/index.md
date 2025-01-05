@@ -44,19 +44,10 @@ chat:
 
 ## Параметры
 
-- [Локализация](/ru/localizations/ru_ru/message/chat/)
-- [Права](/ru/permission/message/chat/)
+- [Локализация](/docs/localizations/ru_ru/message/chat/)
+- [Права](/docs/permission/message/chat/)
 
-### `enable`
-- По умолчанию `true`
-
-Включает или выключает работоспособность модуля
-
-### `permission`
-- Название `flectonepulse.chat`
-- Тип `TRUE`
-
-[Право](/ru/config#module) для использования модуля
+<!--@include: @/parts/enable.md-->
 
 ### `type`
 
@@ -74,12 +65,12 @@ chat:
   range: число
   priority: число
   trigger: ""
+  destination:
+    type: CHAT
   cooldown:
     enable: false
-    duration: 60
   sound:
     enable: false
-    type: "BLOCK_NOTE_BLOCK_BELL:1:1"
 ```
 
 ### `enable`
@@ -88,7 +79,7 @@ chat:
 
 ### `null-recipient`
 
-- Сообщение изменяется тут [Чат](/ru/localizations/ru_ru/message/chat/)
+- Сообщение изменяется тут [Чат](/docs/localizations/ru_ru/message/chat/)
 
 Включает сообщение о том, что отправленное сообщение никто не увидел
 ![null recipient](/nullrecipient.png)
@@ -105,9 +96,7 @@ chat:
 ![chat console](/chatconsole.png)
 :::
 
-### `range`
-
-[Диапазон](#виды-диапазонов) чата, насколько далеко в блоках должен работать чат
+<!--@include: @/parts/range.md-->
 
 ### `priority`
 
@@ -137,24 +126,6 @@ helper:
 
 В итоговом сообщении `trigger` удаляется, т.е. если игрок отправил `!привет`, в итоге будет `привет` без `!`
 
-### `cooldown`
-
-Включает задержку для игрока между использованием чата
-
-::: details Настройка задержки
-#### `duration`
-
-Сколько должно пройти [тиков](https://ru.minecraft.wiki/w/%D0%A2%D0%B0%D0%BA%D1%82) между использованием
-:::
-
-### `sound`
-
-Включает проигрывание звука при использовании
-
-::: details Настройка звука
-#### `type`
-
-Определяет тип, громкость и тональность звука через `:`
-:::
-
-<!--@include: @/ru/parts/range.md-->
+<!--@include: @/parts/destination.md-->
+<!--@include: @/parts/cooldown.md-->
+<!--@include: @/parts/sound.md-->

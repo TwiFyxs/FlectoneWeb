@@ -22,15 +22,11 @@ icon:
 
 ## Параметры
 
-- [Права](/ru/permission/message/status/icon/)
+- [Права](/docs/permission/message/status/icon/)
 
-### `enable`
-- По умолчанию `false`
-
-Включает или выключает работоспособность модуля
+<!--@include: @/parts/enable.md-->
 
 ### `random`
-- По умолчанию `true`
 
 Если включено, то изображение будет выбираться случайным образом, иначе по порядку
 

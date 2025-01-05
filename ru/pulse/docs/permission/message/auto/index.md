@@ -21,34 +21,9 @@ auto:
 
 ## Параметры
 
-- [Сообщения](/ru/message/auto/)
-- [Локализация](/ru/localizations/ru_ru/message/auto/)
+- [Сообщения](/docs/message/auto/)
+- [Локализация](/docs/localizations/ru_ru/message/auto/)
 
-### `name`
-- По умолчанию `flectonepulse.module.message.auto`
-
-Название права
-
-### `type`
-- По умолчанию `TRUE`
-
-Тип права
-
-### `sound`
-
-Право для использования звука
-
-::: details Настройка
-#### `name`
-- По умолчанию `flectonepulse.module.message.auto.sound`
-
-Название права
-
-#### `type`
-- По умолчанию `TRUE`
-
-Тип права
-:::
-
-<!--@include: @/ru/parts/permission.md-->
+<!--@include: @/parts/permission/permissionTier3.md-->
+<!--@include: @/parts/permission/sound.md-->
 

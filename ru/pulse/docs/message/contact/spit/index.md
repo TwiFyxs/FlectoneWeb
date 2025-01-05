@@ -19,6 +19,8 @@ spit:
   enable: false
   message: true
   item: "WHITE_DYE"
+  destination:
+    type: ACTION_BAR
   cooldown:
     enable: true
     duration: 60
@@ -29,16 +31,12 @@ spit:
 
 ## Параметры
 
-- [Локализация](/ru/localizations/ru_ru/message/contact/spit/)
-- [Права](/ru/permission/message/contact/spit/)
+- [Локализация](/docs/localizations/ru_ru/message/contact/spit/)
+- [Права](/docs/permission/message/contact/spit/)
 
-### `enable`
-- По умолчанию `false`
-
-Включает или выключает работоспособность модуля
+<!--@include: @/parts/enable.md-->
 
 ### `message`
-- По умолчанию `true`
 
 Включает сообщение попадания плевка в игрока
 ![spit message](/spit.png)
@@ -48,26 +46,6 @@ spit:
 
 Предмет, который используется для создания плевка
 
-
-### `cooldown`
-- По умолчанию `true`
-
-Включает задержку для игрока между использованиями
-
-::: details Настройка задержки
-#### `duration: 60`
-
-Сколько должно пройти [тиков](https://ru.minecraft.wiki/w/%D0%A2%D0%B0%D0%BA%D1%82) между использованиями
-:::
-
-### `sound`
-- По умолчанию `true`
-
-Включает проигрывание звука при использовании
-
-::: details Настройка звука
-#### `type`
-- По умолчанию `ENTITY_LLAMA_SPIT:0.3:1`
-
-Определяет тип (`ENTITY_LLAMA_SPIT`), громкость (`0.3`) и тональность (`1`) звука через `:`
-:::
+<!--@include: @/parts/destination.md-->
+<!--@include: @/parts/cooldown.md-->
+<!--@include: @/parts/sound.md-->

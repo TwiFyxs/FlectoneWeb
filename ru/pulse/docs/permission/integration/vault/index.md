@@ -18,17 +18,7 @@ vault:
 
 ## Параметры
 
-- [Интеграция](/ru/integration/vault/)
+- [Интеграция](/docs/integration/vault/)
 
-### `name`
-- По умолчанию `flectonepulse.module.integration.vault`
-
-Название права
-
-### `type`
-- По умолчанию `TRUE`
-
-Тип права
-
-<!--@include: @/ru/parts/permission.md-->
+<!--@include: @/parts/permission/permissionTier3.md-->
 

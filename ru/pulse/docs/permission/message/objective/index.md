@@ -18,17 +18,7 @@ objective:
 
 ## Параметры
 
-- [Сообщения](/ru/message/objective/)
+- [Сообщения](/docs/message/objective/)
 
-### `name`
-- По умолчанию `flectonepulse.module.message.objective`
-
-Название права
-
-### `type`
-- По умолчанию `TRUE`
-
-Тип права
-
-<!--@include: @/ru/parts/permission.md-->
+<!--@include: @/parts/permission/permissionTier3.md-->
 

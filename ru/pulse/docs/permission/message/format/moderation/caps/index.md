@@ -24,49 +24,18 @@ caps:
 
 ## Параметры
 
-- [Сообщения](/ru/message/format/moderation/caps/)
+- [Сообщения](/docs/message/format/moderation/caps/)
 
-### `name`
-- По умолчанию `flectonepulse.module.message.format.moderation.caps`
-
-Название права
-
-### `type`
-- По умолчанию `TRUE`
-
-Тип права
+<!--@include: @/parts/permission/permissionTier3.md-->
 
 ### `bypass`
 
 Право для игнорирования форматирования
 
 ::: details Настройка
-#### `name`
-- По умолчанию `flectonepulse.module.message.format.moderation.caps.bypass`
-
-Название права
-
-#### `type`
-- По умолчанию `OP`
-
-Тип права
+<!--@include: @/parts/permission/permissionTier4.md-->
 :::
 
-### `sound`
+<!--@include: @/parts/permission/sound.md-->
 
-Право для использования звука
-
-::: details Настройка
-#### `name`
-- По умолчанию `flectonepulse.module.message.format.moderation.caps.sound`
-
-Название права
-
-#### `type`
-- По умолчанию `TRUE`
-
-Тип права
-:::
-
-<!--@include: @/ru/parts/permission.md-->
 

@@ -17,11 +17,10 @@ swear:
 
 ## Параметры
 
-- [Сообщения](/ru/message/format/moderation/swear/)
-- [Права](/ru/permission/message/format/moderation/swear/)
+- [Сообщения](/docs/message/format/moderation/swear/)
+- [Права](/docs/permission/message/format/moderation/swear/)
 
 ### `symbol`
-- По умолчанию `❤`
 
 Символ, которым заменяется каждая буква ругательства
 ![swear](/swear.png)

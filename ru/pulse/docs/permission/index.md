@@ -20,14 +20,4 @@ module:
 
 ## Параметры
 
-### `name`
-- По умолчанию `flectonepulse.module`
-
-Название права
-
-### `type`
-- По умолчанию `TRUE`
-
-Тип права
-
-<!--@include: @/ru/parts/permission.md-->
+<!--@include: @/parts/permission/permissionTier3.md-->

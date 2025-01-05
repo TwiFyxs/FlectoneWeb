@@ -18,17 +18,7 @@ image:
 
 ## Параметры
 
-- [Сообщения](/ru/message/format/image/)
+- [Сообщения](/docs/message/format/image/)
 
-### `name`
-- По умолчанию `flectonepulse.module.message.format.image`
-
-Название права
-
-### `type`
-- По умолчанию `TRUE`
-
-Тип права
-
-<!--@include: @/ru/parts/permission.md-->
+<!--@include: @/parts/permission/permissionTier3.md-->
 

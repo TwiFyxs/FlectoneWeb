@@ -24,50 +24,10 @@ broadcast:
 
 ## Параметры
 
-- [Конфиг](/ru/command/broadcast/)
-- [Локализация](/ru/localizations/ru_ru/command/broadcast/)
+- [Конфиг](/docs/command/broadcast/)
+- [Локализация](/docs/localizations/ru_ru/command/broadcast/)
 
-### `name`
-- По умолчанию `flectonepulse.module.command.broadcast`
-
-Название права
-
-### `type`
-- По умолчанию `OP`
-
-Тип права
-
-### `cooldown-bypass`
-
-Право для игнорирования задержки между использованием
-
-::: details Настройка
-#### `name`
-- По умолчанию `flectonepulse.module.command.broadcast.cooldown.bypass`
-
-Название права
-
-#### `type`
-- По умолчанию `OP`
-
-Тип права
-:::
-
-### `sound`
-
-Право для использования звука
-
-::: details Настройка
-#### `name`
-- По умолчанию `flectonepulse.module.command.broadcast.sound`
-
-Название права
-
-#### `type`
-- По умолчанию `TRUE`
-
-Тип права
-:::
-
-<!--@include: @/ru/parts/permission.md-->
+<!--@include: @/parts/permission/permissionTier3.md-->
+<!--@include: @/parts/permission/cooldown.md-->
+<!--@include: @/parts/permission/sound.md-->
 

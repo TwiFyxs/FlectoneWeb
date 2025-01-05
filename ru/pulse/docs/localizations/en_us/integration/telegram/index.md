@@ -20,8 +20,8 @@ telegram:
 
 ## Параметры
 
-- [Интеграция](/ru/integration/telegram/)
-- [Права](/ru/permission/integration/telegram/)
+- [Интеграция](/docs/integration/telegram/)
+- [Права](/docs/permission/integration/telegram/)
 
 ### Плейсхолдеры
 
@@ -38,20 +38,20 @@ telegram:
 Очевидно, что все плейсхолдеры из `PlaceholderAPI` и `FlectonePulse` тоже будут работать
 
 ### `for-minecraft`
-- По умолчанию `<fcolor:2><name> <fcolor:1>» <fcolor:4><message>`
 
 Формат сообщения, которое будет отправлено из Телеграма в Майнкрафт
 
 ### `message-channel`
 
-Список [сообщений](#типы-сообщении) с форматом итогового сообщения
+Список сообщений с форматом итогового сообщения
+<!--@include: @/parts/messageTag.md-->
 
 ::: tip Если хочешь добавить другое сообщение:
-1. Возьми название из [списка](#типы-сообщении)
+1. Возьми название из списка
 2. Вставь в `message-channel`
 ```yaml
 название_сообщения: "<final_message>"
 ```
 :::
 
-<!--@include: @/ru/parts/messagetag.md-->
+

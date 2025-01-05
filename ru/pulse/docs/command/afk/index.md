@@ -6,7 +6,7 @@
 ![afk](/afkglobalmessage.png)
 
 ::: danger ВНИМАТЕЛЬНО
-Комманда не будет работать, если модуль [`AFK`](/ru/message/contact/afk/) выключен
+Комманда не будет работать, если модуль [`AFK`](/docs/message/contact/afk/) выключен
 :::
 
 ## Редактирование
@@ -28,23 +28,9 @@ afk:
 
 ## Параметры
 
-- [Локализация](/ru/localizations/ru_ru/command/afk/)
-- [Права](/ru/permission/command/afk/)
+- [Права](/docs/permission/command/afk/)
 
-### `enable`
-- По умолчанию `true`
-
-Включает или выключает работоспособность модуля
-
-### `aliases`
-- По умолчанию `afk`
-
-Список псевдонимов для использования комманды
-
-::: tip Псевдонимы могут быть любыми
-Например `newafk`, `афк` и т.д.
-:::
-
-
-<!--@include: @/ru/parts/cooldown.md-->
-<!--@include: @/ru/parts/sound.md-->
+<!--@include: @/parts/enable.md-->
+<!--@include: @/parts/aliases.md-->
+<!--@include: @/parts/cooldown.md-->
+<!--@include: @/parts/sound.md-->

@@ -17,10 +17,7 @@ supervanish:
 
 ## Параметры
 
-- [Права](/ru/permission/integration/supervanish/)
+- [Права](/docs/permission/integration/supervanish/)
 
-### `enable`
-- По умолчанию `true`
-
-Включает или выключает работоспособность модуля
+<!--@include: @/parts/enable.md-->
 

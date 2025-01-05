@@ -18,17 +18,7 @@ simplevoice:
 
 ## Параметры
 
-- [Интеграция](/ru/integration/simplevoice/)
+- [Интеграция](/docs/integration/simplevoice/)
 
-### `name`
-- По умолчанию `flectonepulse.module.integration.simplevoice`
-
-Название права
-
-### `type`
-- По умолчанию `TRUE`
-
-Тип права
-
-<!--@include: @/ru/parts/permission.md-->
+<!--@include: @/parts/permission/permissionTier3.md-->
 

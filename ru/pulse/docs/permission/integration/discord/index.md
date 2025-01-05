@@ -18,18 +18,8 @@ discord:
 
 ## Параметры
 
-- [Интеграция](/ru/integration/discord/)
-- [Локализация](/ru/localizations/ru_ru/integration/discord/)
+- [Интеграция](/docs/integration/discord/)
+- [Локализация](/docs/localizations/ru_ru/integration/discord/)
 
-### `name`
-- По умолчанию `flectonepulse.module.integration.discord`
-
-Название права
-
-### `type`
-- По умолчанию `TRUE`
-
-Тип права
-
-<!--@include: @/ru/parts/permission.md-->
+<!--@include: @/parts/permission/permissionTier3.md-->
 

@@ -21,33 +21,16 @@ placeholderapi:
 
 ## Параметры
 
-- [Интеграция](/ru/integration/placeholderapi/)
+- [Интеграция](/docs/integration/placeholderapi/)
 
-### `name`
-- По умолчанию `flectonepulse.module.integration.placeholderapi`
-
-Название права
-
-### `type`
-- По умолчанию `TRUE`
-
-Тип права
+<!--@include: @/parts/permission/permissionTier3.md-->
 
 ### `use`
 
 Право для использования плейсхолдеров из PlaceholderAPI
 
 ::: details Настройка
-### `name`
-- По умолчанию `flectonepulse.module.integration.placeholderapi.use`
-
-Название права
-
-### `type`
-- По умолчанию `OP`
-
-Тип права
+<!--@include: @/parts/permission/permissionTier4.md-->
 :::
 
-<!--@include: @/ru/parts/permission.md-->
 

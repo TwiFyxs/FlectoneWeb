@@ -16,14 +16,11 @@ sign:
   enable: true
   sound:
     enable: false
-    type: "BLOCK_NOTE_BLOCK_BELL:1:1"
 ```
 
 ## Параметры
 
-- [Права](/ru/permission/message/sign/)
+- [Права](/docs/permission/message/sign/)
 
-### `enable`
-- По умолчанию `true`
-
-Включает или выключает работоспособность модуля
+<!--@include: @/parts/enable.md-->
+<!--@include: @/parts/sound.md-->

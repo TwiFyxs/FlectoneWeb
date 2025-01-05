@@ -18,17 +18,7 @@ book:
 
 ## Параметры
 
-- [Сообщения](/ru/message/book/)
+- [Сообщения](/docs/message/book/)
 
-### `name`
-- По умолчанию `flectonepulse.module.message.book`
-
-Название права
-
-### `type`
-- По умолчанию `TRUE`
-
-Тип права
-
-<!--@include: @/ru/parts/permission.md-->
+<!--@include: @/parts/permission/permissionTier3.md-->
 

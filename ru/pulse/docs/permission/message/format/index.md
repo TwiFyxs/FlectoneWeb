@@ -124,38 +124,20 @@ message:
 
 ## Параметры
 
-- [Сообщения](/ru/message/format/)
-- [Локализация](/ru/localizations/ru_ru/message/format/)
+- [Сообщения](/docs/message/format/)
+- [Локализация](/docs/localizations/ru_ru/message/format/)
 
-### `name`
-- По умолчанию `flectonepulse.module.message.format`
-
-Название права
-
-### `type`
-- По умолчанию `TRUE`
-
-Тип права
+<!--@include: @/parts/permission/permissionTier3.md-->
 
 ### `all`
 
 Право для использования всех возможных форматирований
 
 ::: details Настройка
-#### `name`
-- По умолчанию `flectonepulse.module.message.format.all`
-
-Название права
-
-#### `type`
-- По умолчанию `OP`
-
-Тип права
+<!--@include: @/parts/permission/permissionTier4.md-->
 :::
 
 ### `tags`
 
 Список тегов и их прав для использования
-
-<!--@include: @/ru/parts/permission.md-->
 

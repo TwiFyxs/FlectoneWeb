@@ -18,10 +18,7 @@ simplevoice:
 
 ## Параметры
 
-- [Права](/ru/permission/integration/simplevoice/)
+- [Права](/docs/permission/integration/simplevoice/)
 
-### `enable`
-- По умолчанию `true`
-
-Включает или выключает работоспособность модуля
+<!--@include: @/parts/enable.md-->
 

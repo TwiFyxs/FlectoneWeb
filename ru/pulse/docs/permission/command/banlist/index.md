@@ -24,50 +24,10 @@ banlist:
 
 ## Параметры
 
-- [Конфиг](/ru/command/banlist/)
-- [Локализация](/ru/localizations/ru_ru/command/banlist/)
+- [Конфиг](/docs/command/banlist/)
+- [Локализация](/docs/localizations/ru_ru/command/banlist/)
 
-### `name`
-- По умолчанию `flectonepulse.module.command.banlist`
-
-Название права
-
-### `type`
-- По умолчанию `OP`
-
-Тип права
-
-### `cooldown-bypass`
-
-Право для игнорирования задержки между использованием
-
-::: details Настройка
-#### `name`
-- По умолчанию `flectonepulse.module.command.banlist.cooldown.bypass`
-
-Название права
-
-#### `type`
-- По умолчанию `OP`
-
-Тип права
-:::
-
-### `sound`
-
-Право для использования звука
-
-::: details Настройка
-#### `name`
-- По умолчанию `flectonepulse.module.command.banlist.sound`
-
-Название права
-
-#### `type`
-- По умолчанию `TRUE`
-
-Тип права
-:::
-
-<!--@include: @/ru/parts/permission.md-->
+<!--@include: @/parts/permission/permissionTier3.md-->
+<!--@include: @/parts/permission/cooldown.md-->
+<!--@include: @/parts/permission/sound.md-->
 

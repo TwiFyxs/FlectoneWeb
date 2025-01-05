@@ -18,10 +18,9 @@ bubble:
 
 ## Параметры
 
-- [Сообщения](/ru/message/bubble/)
-- [Права](/ru/permission/message/bubble/)
+- [Сообщения](/docs/message/bubble/)
+- [Права](/docs/permission/message/bubble/)
 
 ### `format`
-- По умолчанию `<fcolor:3><message>`
 
 Формат сообщения над головой

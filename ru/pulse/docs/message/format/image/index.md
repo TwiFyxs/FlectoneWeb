@@ -25,15 +25,11 @@ image:
 
 ## Параметры
 
-- [Права](/ru/permission/message/format/image/)
+- [Права](/docs/permission/message/format/image/)
 
-### `enable`
-- По умолчанию `true`
-
-Включает или выключает работоспособность модуля
+<!--@include: @/parts/enable.md-->
 
 ### `color`
-- По умолчанию `<fcolor:2>`
 
 Определяет цвет сообщения, содержащее ссылку
 

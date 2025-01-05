@@ -20,8 +20,8 @@ twitch:
 
 ## Параметры
 
-- [Интеграция](/ru/integration/twitch/)
-- [Права](/ru/permission/integration/twitch/)
+- [Интеграция](/docs/integration/twitch/)
+- [Права](/docs/permission/integration/twitch/)
 
 ### Плейсхолдеры
 
@@ -44,14 +44,13 @@ twitch:
 
 ### `message-channel`
 
-Список [сообщений](#типы-сообщении) с форматом итогового сообщения
+Список сообщений с форматом итогового сообщения
+<!--@include: @/parts/messageTag.md-->
 
 ::: tip Если хочешь добавить другое сообщение:
-1. Возьми название из [списка](#типы-сообщении)
+1. Возьми название из списка
 2. Вставь в `message-channel`
 ```yaml
 название_сообщения: "<final_message>"
 ```
 :::
-
-<!--@include: @/ru/parts/messagetag.md-->

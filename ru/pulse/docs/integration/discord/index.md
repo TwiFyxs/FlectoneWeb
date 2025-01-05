@@ -36,25 +36,23 @@ discord:
   message-channel:
     FROM_DISCORD_TO_MINECRAFT: ""
     CHAT: ""
+  destination:
+    type: CHAT
 ```
 
 ## Параметры
 
-- [Локализация](/ru/localizations/ru_ru/integration/discord/)
-- [Права](/ru/permission/integration/discord/)
+- [Локализация](/docs/localizations/ru_ru/integration/discord/)
+- [Права](/docs/permission/integration/discord/)
 
-### `enable`
-- По умолчанию `false`
+<!--@include: @/parts/enable.md-->
 
-::: warning Важно
+::: warning ПРЕДУПРЕЖДЕНИЕ
 - Перед включением, вставь **токен** бота Discord
 - После включения, **ЖЕЛАТЕЛЬНО** перезагрузить сервер, иначе плагин может вызвать зависание
 :::
 
-Включает или выключает работоспособность модуля
-
 ### `token`
-- По умолчанию `пусто`
 
 [Токен](https://discordgsm.com/guide/how-to-get-a-discord-bot-token) дискорд бота для подключения
 
@@ -64,14 +62,10 @@ discord:
 
 ::: details Настройка статуса бота
 #### `enable`
-- По умолчанию `true`
 
 Включает или выключает кастомный статус бота
 
 #### `status`
-- По умолчанию `ONLINE`
-
-Режим статуса
 
 | Режим            | Пояснение                       |
 |------------------|---------------------------------|
@@ -87,14 +81,10 @@ discord:
 Активность бота в дискорде
 
 ##### `enable`
-- По умолчанию `true`
 
 Включает или выключает активность
 
 ##### `type`
-- По умолчанию `PLAYING`
-
-Тип активности
 
 | Тип         | Пояснение   |
 |-------------|-------------|
@@ -106,17 +96,14 @@ discord:
 | `COMPETING` | Соревнуется |
 
 ##### `name`
-- По умолчанию `FlectonePulse`
 
 Название активности
 
 ##### `url`
-- По умолчанию `https://flectone.net/pulse/`
 
 Ссылка на активности
 
 :::
-
 
 ### `channel-info`
 
@@ -124,22 +111,16 @@ discord:
 
 ::: details Настройка каналов с информацией
 #### `enable`
-- По умолчанию `true`
 
-### `ticker`
-- `enable: true`
+Нужен ли канал информации
 
-Нужно ли обновлять канал раз в какой-то промежуток времени
-
-- `period: 1200`
-
-Как часто в [тиках](https://ru.minecraft.wiki/w/%D0%A2%D0%B0%D0%BA%D1%82) нужно обновлять
+<!--@include: @/parts/ticker.md-->
 
 :::
 
 ### `message-channel`
 
-Список [типов сообщений](#типы-сообщений) и [ID каналов](https://support.discord.com/hc/ru/articles/206346498-%D0%93%D0%B4%D0%B5-%D0%BC%D0%BD%D0%B5-%D0%BD%D0%B0%D0%B9%D1%82%D0%B8-ID-%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8F-%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80%D0%B0-%D1%81%D0%BE%D0%BE%D0%B1%D1%89%D0%B5%D0%BD%D0%B8%D1%8F) в Discord
+Список типов сообщений и [ID каналов](https://support.discord.com/hc/ru/articles/206346498-%D0%93%D0%B4%D0%B5-%D0%BC%D0%BD%D0%B5-%D0%BD%D0%B0%D0%B9%D1%82%D0%B8-ID-%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8F-%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80%D0%B0-%D1%81%D0%BE%D0%BE%D0%B1%D1%89%D0%B5%D0%BD%D0%B8%D1%8F) в Discord
 
 ::: tip Например я хочу, чтобы из Minecraft отправлялось сообщение комманды `/ban` в Discord
 1. Копирую ID канала в дискорде `1286666844358316083`
@@ -151,5 +132,7 @@ message-channel:
 ```
 :::
 
-<!--@include: @/ru/parts/messagetag.md-->
+<!--@include: @/parts/messageTag.md-->
+
+<!--@include: @/parts/destination.md-->
 

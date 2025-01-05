@@ -27,66 +27,19 @@ helper:
 
 ## Параметры
 
-- [Конфиг](/ru/command/helper/)
-- [Локализация](/ru/localizations/ru_ru/command/helper/)
+- [Конфиг](/docs/command/helper/)
+- [Локализация](/docs/localizations/ru_ru/command/helper/)
 
-### `name`
-- По умолчанию `flectonepulse.module.command.helper`
-
-Название права
-
-### `type`
-- По умолчанию `TRUE`
-
-Тип права
+<!--@include: @/parts/permission/permissionTier3.md-->
 
 ### `see`
 
 Право для просмотра запросов о помощи
 
 ::: details Настройка
-#### `name`
-- По умолчанию `flectonepulse.module.command.helper.see`
-
-Название права
-
-#### `type`
-- По умолчанию `OP`
-
-Тип права
+<!--@include: @/parts/permission/permissionTier4.md-->
 :::
 
-### `cooldown-bypass`
-
-Право для игнорирования задержки между использованием
-
-::: details Настройка
-#### `name`
-- По умолчанию `flectonepulse.module.command.helper.cooldown.bypass`
-
-Название права
-
-#### `type`
-- По умолчанию `OP`
-
-Тип права
-:::
-
-### `sound`
-
-Право для использования звука
-
-::: details Настройка
-#### `name`
-- По умолчанию `flectonepulse.module.command.helper.sound`
-
-Название права
-
-#### `type`
-- По умолчанию `TRUE`
-
-Тип права
-:::
-
-<!--@include: @/ru/parts/permission.md-->
+<!--@include: @/parts/permission/cooldown.md-->
+<!--@include: @/parts/permission/sound.md-->
 

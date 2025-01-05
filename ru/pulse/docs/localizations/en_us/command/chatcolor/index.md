@@ -20,21 +20,18 @@ chatcolor:
 
 ## Параметры
 
-- [Комманда](/ru/command/chatcolor/)
-- [Права](/ru/permission/command/chatcolor/)
+- [Комманда](/docs/command/chatcolor/)
+- [Права](/docs/permission/command/chatcolor/)
 
 ### `null-player`
-- По умолчанию `<color:#ff7171><b>⁉</b> This player does not exist`
 
 Сообщение, если введённый игрок не найден
 
 ### `null-color`
-- По умолчанию `<color:#ff7171><b>⁉</b> Incorrect colors entered`
 
 Сообщение, если неправильно введены цвета
 
 ### `format`
-- По умолчанию `<color:#98FB98>★ You set <fcolor:1>message</fcolor> <fcolor:2>message</fcolor> <fcolor:3>message <fcolor:4>message`
 
 Формат сообщения, которое будет отправлено
 

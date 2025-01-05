@@ -21,34 +21,9 @@ seed:
 
 ## Параметры
 
-- [Сообщения](/ru/message/seed/)
-- [Локализация](/ru/localizations/ru_ru/message/seed/)
+- [Сообщения](/docs/message/seed/)
+- [Локализация](/docs/localizations/ru_ru/message/seed/)
 
-### `name`
-- По умолчанию `flectonepulse.module.message.seed`
-
-Название права
-
-### `type`
-- По умолчанию `TRUE`
-
-Тип права
-
-### `sound`
-
-Право для использования звука
-
-::: details Настройка
-#### `name`
-- По умолчанию `flectonepulse.module.message.seed.sound`
-
-Название права
-
-#### `type`
-- По умолчанию `TRUE`
-
-Тип права
-:::
-
-<!--@include: @/ru/parts/permission.md-->
+<!--@include: @/parts/permission/permissionTier3.md-->
+<!--@include: @/parts/permission/sound.md-->
 

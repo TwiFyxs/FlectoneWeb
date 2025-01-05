@@ -18,18 +18,8 @@ afk:
 
 ## Параметры
 
-- [Сообщения](/ru/message/contact/afk/)
-- [Локализация](/ru/localizations/ru_ru/message/contact/afk/)
+- [Сообщения](/docs/message/contact/afk/)
+- [Локализация](/docs/localizations/ru_ru/message/contact/afk/)
 
-### `name`
-- По умолчанию `flectonepulse.module.message.contact.afk`
-
-Название права
-
-### `type`
-- По умолчанию `TRUE`
-
-Тип права
-
-<!--@include: @/ru/parts/permission.md-->
+<!--@include: @/parts/permission/permissionTier3.md-->
 

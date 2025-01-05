@@ -21,34 +21,9 @@ deop:
 
 ## Параметры
 
-- [Сообщения](/ru/message/deop/)
-- [Локализация](/ru/localizations/ru_ru/message/deop/)
+- [Сообщения](/docs/message/deop/)
+- [Локализация](/docs/localizations/ru_ru/message/deop/)
 
-### `name`
-- По умолчанию `flectonepulse.module.message.deop`
-
-Название права
-
-### `type`
-- По умолчанию `TRUE`
-
-Тип права
-
-### `sound`
-
-Право для использования звука
-
-::: details Настройка
-#### `name`
-- По умолчанию `flectonepulse.module.message.deop.sound`
-
-Название права
-
-#### `type`
-- По умолчанию `TRUE`
-
-Тип права
-:::
-
-<!--@include: @/ru/parts/permission.md-->
+<!--@include: @/parts/permission/permissionTier3.md-->
+<!--@include: @/parts/permission/sound.md-->
 

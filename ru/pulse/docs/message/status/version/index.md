@@ -19,16 +19,12 @@ version:
 
 ## Параметры
 
-- [Локализация](/ru/localizations/ru_ru/message/status/version/)
-- [Права](/ru/permission/message/status/version/)
+- [Локализация](/docs/localizations/ru_ru/message/status/version/)
+- [Права](/docs/permission/message/status/version/)
 
-### `enable`
-- По умолчанию `true`
-
-Включает или выключает работоспособность модуля
+<!--@include: @/parts/enable.md-->
 
 ### `protocol`
-- По умолчанию `-1`
 
 [Протокол](https://minecraft.wiki/w/Protocol_version) сервера
 

@@ -19,16 +19,14 @@ flectonepulse:
 
 ## Параметры
 
-- [Комманда](/ru/command/flectonepulse/)
-- [Права](/ru/permission/command/flectonepulse/)
+- [Комманда](/docs/command/flectonepulse/)
+- [Права](/docs/permission/command/flectonepulse/)
 
 ### `format-false`
-- По умолчанию `<color:#ff7171>★ Возникла проблема при перезагрузке`
 
 Сообщение при возникновении ошибки
 
 ### `format-true`
-- По умолчанию `<fcolor:2>★ Плагин успешно перезагружен!`
 
 Формат сообщения, которое будет отправлено
 

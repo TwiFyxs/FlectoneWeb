@@ -18,18 +18,8 @@ name-:
 
 ## Параметры
 
-- [Сообщения](/ru/message/format/name/)
-- [Локализация](/ru/localizations/ru_ru/message/format/name/)
+- [Сообщения](/docs/message/format/name/)
+- [Локализация](/docs/localizations/ru_ru/message/format/name/)
 
-### `name`
-- По умолчанию `flectonepulse.module.message.format.name`
-
-Название права
-
-### `type`
-- По умолчанию `TRUE`
-
-Тип права
-
-<!--@include: @/ru/parts/permission.md-->
+<!--@include: @/parts/permission/permissionTier3.md-->
 

@@ -19,15 +19,13 @@ enchant:
 
 ## Параметры
 
-- [Сообщения](/ru/message/enchant/)
-- [Права](/ru/permission/message/enchant/)
+- [Сообщения](/docs/message/enchant/)
+- [Права](/docs/permission/message/enchant/)
 
 ### `single`
-- По умолчанию `<fcolor:1>📖 Applied enchantment «<fcolor:2><lang:<enchant>> <lang:<level>></fcolor:2>» to <display_name>'s item`
 
 Сообщение, если команда применяется для конкретного игрока
 
 ### `multiple`
-- По умолчанию `<fcolor:1>📖 Applied enchantment «<fcolor:2><lang:<enchant>> <lang:<level>></fcolor:2>» to <fcolor:2><count></fcolor:2> entities`
 
 Сообщение, если команда применяется для многих сущностей

@@ -18,10 +18,7 @@ skinsrestorer:
 
 ## Параметры
 
-- [Права](/ru/permission/integration/skinsrestorer/)
+- [Права](/docs/permission/integration/skinsrestorer/)
 
-### `enable`
-- По умолчанию `true`
-
-Включает или выключает работоспособность модуля
+<!--@include: @/parts/enable.md-->
 

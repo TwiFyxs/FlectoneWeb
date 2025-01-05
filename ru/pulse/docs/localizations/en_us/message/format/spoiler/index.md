@@ -19,15 +19,13 @@ spoiler:
 
 ## Параметры
 
-- [Сообщения](/ru/message/format/spoiler/)
-- [Права](/ru/permission/message/format/spoiler/)
+- [Сообщения](/docs/message/format/spoiler/)
+- [Права](/docs/permission/message/format/spoiler/)
 
 ### `symbol`
-- По умолчанию `█`
 
 Символ, на который заменяется каждая буква
 
 ### `hover`
-- По умолчанию `<fcolor:2><message>`
 
 Сообщение, которое показывается при наведении

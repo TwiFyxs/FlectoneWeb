@@ -18,10 +18,9 @@ deop:
 
 ## Параметры
 
-- [Сообщения](/ru/message/deop/)
-- [Права](/ru/permission/message/deop/)
+- [Сообщения](/docs/message/deop/)
+- [Права](/docs/permission/message/deop/)
 
 ### `format`
-- По умолчанию `<fcolor:1>🤖 Made <display_name> no longer a server operator`
 
 Сообщение, которое будет отправлено

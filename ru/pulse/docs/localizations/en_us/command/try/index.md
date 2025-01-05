@@ -19,16 +19,14 @@ try:
 
 ## Параметры
 
-- [Комманда](/ru/command/try/)
-- [Права](/ru/permission/command/try/)
+- [Комманда](/docs/command/try/)
+- [Права](/docs/permission/command/try/)
 
 ### `format-true`
-- По умолчанию `<color:#98FB98>☺ <display_name> <message> <percent>%`
 
 Формат сообщения, которое будет отправлено, если действие выполнено успешно
 
 ### `format-false`
-- По умолчанию `<color:#F08080>☹ <display_name> <message> <percent>%`
 
 Формат сообщения, которое будет отправлено, если действие выполнено неуспешно
 

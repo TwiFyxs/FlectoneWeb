@@ -18,17 +18,7 @@ world:
 
 ## Параметры
 
-- [Сообщения](/ru/message/format/world/)
+- [Сообщения](/docs/message/format/world/)
 
-### `name`
-- По умолчанию `flectonepulse.module.message.format.world`
-
-Название права
-
-### `type`
-- По умолчанию `TRUE`
-
-Тип права
-
-<!--@include: @/ru/parts/permission.md-->
+<!--@include: @/parts/permission/permissionTier3.md-->
 

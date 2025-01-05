@@ -18,11 +18,10 @@ version:
 
 ## Параметры
 
-- [Сообщения](/ru/message/status/version/)
-- [Права](/ru/permission/message/status/version/)
+- [Сообщения](/docs/message/status/version/)
+- [Права](/docs/permission/message/status/version/)
 
 ### `name`
-- По умолчанию `Майнкрафт сервер`
 
 Название версии сервера
 

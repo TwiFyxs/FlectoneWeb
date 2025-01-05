@@ -15,10 +15,7 @@ enable: true
 
 ## Параметры
 
-- [Локализация](/ru/localizations/ru_ru/integration/)
-- [Права](/ru/permission/integration/)
+- [Локализация](/docs/localizations/ru_ru/integration/)
+- [Права](/docs/permission/integration/)
 
-### `enable`
-- По умолчанию `true`
-
-Включает или выключает работоспособность модуля
+<!--@include: @/parts/enable.md-->

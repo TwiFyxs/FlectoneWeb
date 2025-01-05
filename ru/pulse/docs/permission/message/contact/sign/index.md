@@ -24,50 +24,10 @@ sign:
 
 ## Параметры
 
-- [Сообщения](/ru/message/contact/sign/)
-- [Локализация](/ru/localizations/ru_ru/message/contact/sign/)
+- [Сообщения](/docs/message/contact/sign/)
+- [Локализация](/docs/localizations/ru_ru/message/contact/sign/)
 
-### `name`
-- По умолчанию `flectonepulse.module.message.contact.sign`
-
-Название права
-
-### `type`
-- По умолчанию `TRUE`
-
-Тип права
-
-### `cooldown-bypass`
-
-Право для игнорирования задержки между использованием
-
-::: details Настройка
-#### `name`
-- По умолчанию `flectonepulse.module.message.contact.sign.cooldown.bypass`
-
-Название права
-
-#### `type`
-- По умолчанию `OP`
-
-Тип права
-:::
-
-### `sound`
-
-Право для использования звука
-
-::: details Настройка
-#### `name`
-- По умолчанию `flectonepulse.module.message.contact.sign.sound`
-
-Название права
-
-#### `type`
-- По умолчанию `TRUE`
-
-Тип права
-:::
-
-<!--@include: @/ru/parts/permission.md-->
+<!--@include: @/parts/permission/permissionTier3.md-->
+<!--@include: @/parts/permission/cooldown.md-->
+<!--@include: @/parts/permission/sound.md-->
 

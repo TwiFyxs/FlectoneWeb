@@ -25,29 +25,20 @@ advancement:
 
 ## Параметры
 
-- [Локализация](/ru/localizations/ru_ru/message/advancement/)
-- [Права](/ru/permission/message/advancement/)
+- [Локализация](/docs/localizations/ru_ru/message/advancement/)
+- [Права](/docs/permission/message/advancement/)
 
-### `enable`
-- По умолчанию `true`
-
-Включает или выключает работоспособность модуля
+<!--@include: @/parts/enable.md-->
 
 ### `revoke`
-- `enbale: true`
 
 Включает изменение сообщения у комманды `/advancement revoke`
 
 ### `grant`
-- `enbale: true`
 
 Включает изменение сообщения у комманды `/advancement grant`
 
-### `range`
-- По умолчанию `-1`
+<!--@include: @/parts/range.md-->
+<!--@include: @/parts/destination.md-->
+<!--@include: @/parts/sound.md-->
 
-[Диапазон](#виды-диапазонов), насколько далеко в блоках отобразится сообщение
-
-<!--@include: @/ru/parts/sound.md-->
-
-<!--@include: @/ru/parts/range.md-->

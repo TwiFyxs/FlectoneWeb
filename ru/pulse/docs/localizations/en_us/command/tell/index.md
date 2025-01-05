@@ -21,26 +21,22 @@ tell:
 
 ## Параметры
 
-- [Комманда](/ru/command/tell/)
-- [Права](/ru/permission/command/tell/)
+- [Комманда](/docs/command/tell/)
+- [Права](/docs/permission/command/tell/)
 
 ### `null-player`
-- По умолчанию `<color:#ff7171><b>⁉</b> This player does not exist`
 
 Сообщение, если введённый игрок не найден
 
 ### `sender`
-- По умолчанию `<fcolor:2>✉ You → <display_name> » <fcolor:1><message>`
 
 Сообщение для отправителя
 
 ### `receiver`
-- По умолчанию `<fcolor:2>✉ <display_name> → You » <fcolor:1><message>`
 
 Сообщение для получателя
 
 ### `myself`
-- По умолчанию `<fcolor:2>✉ [Note] <fcolor:1><message>`
 
 Сообщение для отправителя, если он и есть получатель т.е. для себя
 

@@ -18,17 +18,7 @@ simplevoice:
 
 ## Параметры
 
-- [Интеграция](/ru/integration/skinsrestorer/)
+- [Интеграция](/docs/integration/skinsrestorer/)
 
-### `name`
-- По умолчанию `flectonepulse.module.integration.skinsrestorer`
-
-Название права
-
-### `type`
-- По умолчанию `TRUE`
-
-Тип права
-
-<!--@include: @/ru/parts/permission.md-->
+<!--@include: @/parts/permission/permissionTier3.md-->
 

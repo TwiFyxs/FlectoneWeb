@@ -18,17 +18,7 @@ emoji:
 
 ## Параметры
 
-- [Сообщения](/ru/message/format/emoji/)
+- [Сообщения](/docs/message/format/emoji/)
 
-### `name`
-- По умолчанию `flectonepulse.module.message.format.emoji`
-
-Название права
-
-### `type`
-- По умолчанию `TRUE`
-
-Тип права
-
-<!--@include: @/ru/parts/permission.md-->
+<!--@include: @/parts/permission/permissionTier3.md-->
 

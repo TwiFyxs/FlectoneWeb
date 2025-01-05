@@ -18,11 +18,10 @@ reply:
 
 ## Параметры
 
-- [Комманда](/ru/command/reply/)
-- [Права](/ru/permission/command/reply/)
+- [Комманда](/docs/command/reply/)
+- [Права](/docs/permission/command/reply/)
 
 ### `null-receiver`
-- По умолчанию `<color:#ff7171><b>⁉</b> No one to answer`
 
 Сообщение, если получатель не найден
 

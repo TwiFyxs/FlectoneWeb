@@ -20,21 +20,18 @@ mail:
 
 ## Параметры
 
-- [Комманда](/ru/command/mail/)
-- [Права](/ru/permission/command/mail/)
+- [Комманда](/docs/command/mail/)
+- [Права](/docs/permission/command/mail/)
 
 ### `null-player`
-- По умолчанию `<color:#ff7171><b>⁉</b> This player does not exist`
 
 Сообщение, если введённый игрок не найден
 
 ### `sender`
-- По умолчанию `<fcolor:2>✉ Mail #<id> for <display_name> » <fcolor:1><message>`
 
 Сообщение для отправителя
 
 ### `receiver`
-- По умолчанию `<fcolor:2>✉ Mail from <display_name> » <fcolor:1><message>`
 
 Сообщение для получателя
 

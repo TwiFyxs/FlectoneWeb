@@ -22,31 +22,26 @@ online:
 
 ## Параметры
 
-- [Комманда](/ru/command/online/)
-- [Права](/ru/permission/command/online/)
+- [Комманда](/docs/command/online/)
+- [Права](/docs/permission/command/online/)
 
 ### `null-player`
-- По умолчанию `<color:#ff7171><b>⁉</b> This player does not exist`
 
 Сообщение, если введённый игрок не найден
 
 ### `format-current`
-- По умолчанию `<fcolor:1>⌛ <display_name> currently on server`
 
 Сообщение, если введённый игрок на сервере
 
 ### `format-first`
-- По умолчанию `<fcolor:1>⌛ <display_name> was first on server <time> ago`
 
 Формат сообщения `/online first`, которое будет отправлено
 
 ### `format-last`
-- По умолчанию `<fcolor:1>⌛ <display_name> <fcolor:1>was last on server <time> ago`
 
 Формат сообщения `/online last`, которое будет отправлено
 
 ### `format-total`
-- По умолчанию `<fcolor:1>⌛ <display_name> <fcolor:1>has spent a total of <time> on server`
 
 Формат сообщения `/online total`, которое будет отправлено
 

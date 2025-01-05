@@ -27,66 +27,19 @@ maintenance:
 
 ## Параметры
 
-- [Конфиг](/ru/command/maintenance/)
-- [Локализация](/ru/localizations/ru_ru/command/maintenance/)
+- [Конфиг](/docs/command/maintenance/)
+- [Локализация](/docs/localizations/ru_ru/command/maintenance/)
 
-### `name`
-- По умолчанию `flectonepulse.module.command.maintenance`
-
-Название права
-
-### `type`
-- По умолчанию `OP`
-
-Тип права
+<!--@include: @/parts/permission/permissionTier3.md-->
 
 ### `join`
 
 Право для подключения к серверу во время технических работ
 
 ::: details Настройка
-#### `name`
-- По умолчанию `flectonepulse.module.command.maintenance.join`
-
-Название права
-
-#### `type`
-- По умолчанию `OP`
-
-Тип права
+<!--@include: @/parts/permission/permissionTier4.md-->
 :::
 
-### `cooldown-bypass`
-
-Право для игнорирования задержки между использованием
-
-::: details Настройка
-#### `name`
-- По умолчанию `flectonepulse.module.command.maintenance.cooldown.bypass`
-
-Название права
-
-#### `type`
-- По умолчанию `OP`
-
-Тип права
-:::
-
-### `sound`
-
-Право для использования звука
-
-::: details Настройка
-#### `name`
-- По умолчанию `flectonepulse.module.command.maintenance.sound`
-
-Название права
-
-#### `type`
-- По умолчанию `TRUE`
-
-Тип права
-:::
-
-<!--@include: @/ru/parts/permission.md-->
+<!--@include: @/parts/permission/cooldown.md-->
+<!--@include: @/parts/permission/sound.md-->
 

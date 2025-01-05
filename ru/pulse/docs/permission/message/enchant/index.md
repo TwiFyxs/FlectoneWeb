@@ -21,34 +21,9 @@ enchant:
 
 ## Параметры
 
-- [Сообщения](/ru/message/enchant/)
-- [Локализация](/ru/localizations/ru_ru/message/enchant/)
+- [Сообщения](/docs/message/enchant/)
+- [Локализация](/docs/localizations/ru_ru/message/enchant/)
 
-### `name`
-- По умолчанию `flectonepulse.module.message.enchant`
-
-Название права
-
-### `type`
-- По умолчанию `TRUE`
-
-Тип права
-
-### `sound`
-
-Право для использования звука
-
-::: details Настройка
-#### `name`
-- По умолчанию `flectonepulse.module.message.enchant.sound`
-
-Название права
-
-#### `type`
-- По умолчанию `TRUE`
-
-Тип права
-:::
-
-<!--@include: @/ru/parts/permission.md-->
+<!--@include: @/parts/permission/permissionTier3.md-->
+<!--@include: @/parts/permission/sound.md-->
 

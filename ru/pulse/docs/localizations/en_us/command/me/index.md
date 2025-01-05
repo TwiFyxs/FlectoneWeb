@@ -18,11 +18,10 @@ me:
 
 ## Параметры
 
-- [Комманда](/ru/command/me/)
-- [Права](/ru/permission/command/me/)
+- [Комманда](/docs/command/me/)
+- [Права](/docs/permission/command/me/)
 
 ### `format`
-- По умолчанию `<fcolor:1>✎ <display_name> <message>`
 
 Формат сообщения, которое будет отправлено
 ![command me](/commandme.png)

@@ -13,7 +13,7 @@
 
 | Плейсхолдер                     | Что возращает                                                      |
 |---------------------------------|--------------------------------------------------------------------|
-| `%flectonepulse_fcolor_номер%`  | Возвращает [индивидуальный](/ru/message/format/color/) цвет игрока |
+| `%flectonepulse_fcolor_номер%`  | Возвращает [индивидуальный](/docs/message/format/color/) цвет игрока |
 | `%flectonepulse_world_prefix%`  | Префикс измерения у игрока                                         |
 | `%flectonepulse_stream_prefix%` | Префикс стрима у игрока                                            |
 | `%flectonepulse_afk_suffix%`    | Суффикс афк у игрока                                               |
@@ -36,10 +36,7 @@ placeholderapi:
 
 ## Параметры
 
-- [Права](/ru/permission/integration/placeholderapi/)
+- [Права](/docs/permission/integration/placeholderapi/)
 
-### `enable`
-- По умолчанию `true`
-
-Включает или выключает работоспособность модуля
+<!--@include: @/parts/enable.md-->
 

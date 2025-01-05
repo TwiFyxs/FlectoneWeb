@@ -24,50 +24,10 @@ mail:
 
 ## Параметры
 
-- [Конфиг](/ru/command/mail/)
-- [Локализация](/ru/localizations/ru_ru/command/mail/)
+- [Конфиг](/docs/command/mail/)
+- [Локализация](/docs/localizations/ru_ru/command/mail/)
 
-### `name`
-- По умолчанию `flectonepulse.module.command.mail`
-
-Название права
-
-### `type`
-- По умолчанию `TRUE`
-
-Тип права
-
-### `cooldown-bypass`
-
-Право для игнорирования задержки между использованием
-
-::: details Настройка
-#### `name`
-- По умолчанию `flectonepulse.module.command.mail.cooldown.bypass`
-
-Название права
-
-#### `type`
-- По умолчанию `OP`
-
-Тип права
-:::
-
-### `sound`
-
-Право для использования звука
-
-::: details Настройка
-#### `name`
-- По умолчанию `flectonepulse.module.command.mail.sound`
-
-Название права
-
-#### `type`
-- По умолчанию `TRUE`
-
-Тип права
-:::
-
-<!--@include: @/ru/parts/permission.md-->
+<!--@include: @/parts/permission/permissionTier3.md-->
+<!--@include: @/parts/permission/cooldown.md-->
+<!--@include: @/parts/permission/sound.md-->
 

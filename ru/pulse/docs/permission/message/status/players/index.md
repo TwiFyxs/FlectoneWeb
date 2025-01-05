@@ -21,34 +21,17 @@ players:
 
 ## Параметры
 
-- [Сообщения](/ru/message/status/players/)
-- [Локализация](/ru/localizations/ru_ru/message/status/players/)
+- [Сообщения](/docs/message/status/players/)
+- [Локализация](/docs/localizations/ru_ru/message/status/players/)
 
-### `name`
-- По умолчанию `flectonepulse.module.message.status.players`
-
-Название права
-
-### `type`
-- По умолчанию `TRUE`
-
-Тип права
+<!--@include: @/parts/permission/permissionTier3.md-->
 
 ### `bypass`
 
 Право для подключения на полный сервер
 
 ::: details Настройка
-#### `name`
-- По умолчанию `flectonepulse.module.message.status.players.bypass`
-
-Название права
-
-#### `type`
-- По умолчанию `OP`
-
-Тип права
+<!--@include: @/parts/permission/permissionTier4.md-->
 :::
 
-<!--@include: @/ru/parts/permission.md-->
 

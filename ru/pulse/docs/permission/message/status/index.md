@@ -18,17 +18,7 @@ status:
 
 ## Параметры
 
-- [Сообщения](/ru/message/status/)
+- [Сообщения](/docs/message/status/)
 
-### `name`
-- По умолчанию `flectonepulse.module.message.status`
-
-Название права
-
-### `type`
-- По умолчанию `TRUE`
-
-Тип права
-
-<!--@include: @/ru/parts/permission.md-->
+<!--@include: @/parts/permission/permissionTier3.md-->
 

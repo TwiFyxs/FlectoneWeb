@@ -17,20 +17,15 @@ caps:
   trigger: 0.7
   sound:
     enable: false
-    type: "BLOCK_NOTE_BLOCK_BELL:1:1"
 ```
 
 ## Параметры
 
-- [Права](/ru/permission/message/format/moderation/caps/)
+- [Права](/docs/permission/message/format/moderation/caps/)
 
-### `enable`
-- По умолчанию `false`
-
-Включает или выключает работоспособность модуля
+<!--@include: @/parts/enable.md-->
 
 ### `trigger`
-- По умолчанию `0.7`
 
 Процент букв, которые должны быть в верхнем регистре, чтобы сообщение было изменено
 
@@ -39,3 +34,5 @@ caps:
 
 `1.0` это `100%` т.е всё сообщение
 :::
+
+<!--@include: @/parts/sound.md-->

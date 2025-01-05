@@ -18,17 +18,7 @@ integration:
 
 ## Параметры
 
-- [Интеграция](/ru/integration/)
+- [Интеграция](/docs/integration/)
 
-### `name`
-- По умолчанию `flectonepulse.module.integration`
-
-Название права
-
-### `type`
-- По умолчанию `TRUE`
-
-Тип права
-
-<!--@include: @/ru/parts/permission.md-->
+<!--@include: @/parts/permission/permissionTier3.md-->
 

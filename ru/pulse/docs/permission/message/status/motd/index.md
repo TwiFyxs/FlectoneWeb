@@ -18,18 +18,8 @@ motd:
 
 ## Параметры
 
-- [Сообщения](/ru/message/status/motd/)
-- [Локализация](/ru/localizations/ru_ru/message/status/motd/)
+- [Сообщения](/docs/message/status/motd/)
+- [Локализация](/docs/localizations/ru_ru/message/status/motd/)
 
-### `name`
-- По умолчанию `flectonepulse.module.message.status.motd`
-
-Название права
-
-### `type`
-- По умолчанию `TRUE`
-
-Тип права
-
-<!--@include: @/ru/parts/permission.md-->
+<!--@include: @/parts/permission/permissionTier3.md-->
 

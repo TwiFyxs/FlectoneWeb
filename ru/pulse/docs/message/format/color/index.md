@@ -28,15 +28,11 @@ color:
 
 ## Параметры
 
-- [Права](/ru/permission/message/format/color/)
+- [Права](/docs/permission/message/format/color/)
 
-### `enable`
-- По умолчанию `true`
-
-Включает или выключает работоспособность модуля
+<!--@include: @/parts/enable.md-->
 
 ### `use-recipient-colors`
-- По умолчанию `true`
 
 Если включено, то любое сообщение, которое содержит `<fcolor:номер>`, будет отформатировано относительно получателя
 ![color true](/colortrue.gif)

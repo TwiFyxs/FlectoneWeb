@@ -18,9 +18,6 @@ tab:
 
 ## Параметры
 
-- [Права](/ru/permission/message/tab/)
+- [Права](/docs/permission/message/tab/)
 
-### `enable`
-- По умолчанию `true`
-
-Включает или выключает работоспособность модуля и его наследников
+<!--@include: @/parts/enable.md-->

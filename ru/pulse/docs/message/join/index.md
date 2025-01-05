@@ -16,41 +16,23 @@ join:
   enable: true
   first: true
   range: -1
+  destination:
+    type: CHAT
   sound:
     enable: false
-    type: "BLOCK_NOTE_BLOCK_BELL:1:1"
 ```
 
 ## Параметры
 
-- [Локализация](/ru/localizations/ru_ru/message/join/)
-- [Права](/ru/permission/message/join/)
+- [Локализация](/docs/localizations/ru_ru/message/join/)
+- [Права](/docs/permission/message/join/)
 
-### `enable`
-- По умолчанию `true`
-
-Включает или выключает работоспособность модуля
+<!--@include: @/parts/enable.md-->
 
 ### `first`
-- По умолчанию `true`
 
 Включает сообщение о самом первом подключении игрока на сервер
 
-### `range`
-- По умолчанию `-1`
-
-[Диапазон](#виды-диапазонов), насколько далеко в блоках отобразится сообщение
-
-### `sound`
-- По умолчанию `false`
-
-Включает проигрывание звука при использовании
-
-::: details Настройка звука
-### `type`
-- По умолчанию `BLOCK_NOTE_BLOCK_BELL:1:1`
-
-Определяет тип (`BLOCK_NOTE_BLOCK_BELL`), громкость (`1`) и тональность (`1`) звука через `:`
-:::
-
-<!--@include: @/ru/parts/range.md-->
+<!--@include: @/parts/range.md-->
+<!--@include: @/parts/destination.md-->
+<!--@include: @/parts/sound.md-->

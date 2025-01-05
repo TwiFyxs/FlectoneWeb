@@ -17,11 +17,10 @@ mention:
 
 ## Параметры
 
-- [Сообщения](/ru/message/format/mention/)
-- [Права](/ru/permission/message/format/mention/)
+- [Сообщения](/docs/message/format/mention/)
+- [Права](/docs/permission/message/format/mention/)
 
 ### `format`
-- По умолчанию `<fcolor:2>@<player></fcolor>`
 
 Сообщение, если это упоминание игрока
 ![mention](/mention.png)

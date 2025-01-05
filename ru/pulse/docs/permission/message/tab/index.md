@@ -18,17 +18,7 @@ tab:
 
 ## Параметры
 
-- [Сообщения](/ru/message/tab/)
+- [Сообщения](/docs/message/tab/)
 
-### `name`
-- По умолчанию `flectonepulse.module.message.tab`
-
-Название права
-
-### `type`
-- По умолчанию `TRUE`
-
-Тип права
-
-<!--@include: @/ru/parts/permission.md-->
+<!--@include: @/parts/permission/permissionTier3.md-->
 

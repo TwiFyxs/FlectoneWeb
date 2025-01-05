@@ -18,18 +18,8 @@ header:
 
 ## Параметры
 
-- [Сообщения](/ru/message/tab/header/)
-- [Локализация](/ru/localizations/ru_ru/message/tab/header/)
+- [Сообщения](/docs/message/tab/header/)
+- [Локализация](/docs/localizations/ru_ru/message/tab/header/)
 
-### `name`
-- По умолчанию `flectonepulse.module.message.tab.header`
-
-Название права
-
-### `type`
-- По умолчанию `TRUE`
-
-Тип права
-
-<!--@include: @/ru/parts/permission.md-->
+<!--@include: @/parts/permission/permissionTier3.md-->
 

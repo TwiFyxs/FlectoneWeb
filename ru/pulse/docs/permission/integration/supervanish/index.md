@@ -18,17 +18,7 @@ supervanish:
 
 ## Параметры
 
-- [Интеграция](/ru/integration/supervanish/)
+- [Интеграция](/docs/integration/supervanish/)
 
-### `name`
-- По умолчанию `flectonepulse.module.integration.supervanish`
-
-Название права
-
-### `type`
-- По умолчанию `TRUE`
-
-Тип права
-
-<!--@include: @/ru/parts/permission.md-->
+<!--@include: @/parts/permission/permissionTier3.md-->
 

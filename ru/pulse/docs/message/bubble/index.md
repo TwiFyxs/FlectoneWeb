@@ -35,16 +35,12 @@ long duration = (countWords + handicapChars) / readSpeed * 1200;
 
 ## Параметры
 
-- [Локализация](/ru/localizations/ru_ru/message/bubble/)
-- [Права](/ru/permission/message/bubble/)
+- [Локализация](/docs/localizations/ru_ru/message/bubble/)
+- [Права](/docs/permission/message/bubble/)
 
-### `enable`
-- По умолчанию `true`
-
-Включает или выключает работоспособность модуля
+<!--@include: @/parts/enable.md-->
 
 ### `new-system`
-- По умолчанию `true`
 
 Включает работу сообщений над головой через Text Display
 
@@ -53,22 +49,18 @@ long duration = (countWords + handicapChars) / readSpeed * 1200;
 :::
 
 ### `line-width`
-- По умолчанию `200`
 
 Максимальное количество символов на одной строчке
 
 ### `read-speed`
-- По умолчанию `100.0`
 
 Скорость чтения символов сообщения
 
 ### `handicap-chars`
-- По умолчанию `10.0`
 
 Дополнительное время для коротких сообщений
 
 ### `height`
-- По умолчанию `0.2`
 
 Насколько высоко от головы будет сообщение
 

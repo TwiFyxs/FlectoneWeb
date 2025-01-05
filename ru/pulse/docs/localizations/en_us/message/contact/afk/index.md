@@ -24,29 +24,18 @@ afk:
 
 ## Параметры
 
-- [Сообщения](/ru/message/contact/afk/)
-- [Права](/ru/permission/message/contact/afk/)
+- [Сообщения](/docs/message/contact/afk/)
+- [Права](/docs/permission/message/contact/afk/)
 
 ### `suffix`
-- По умолчанию `" <color:#FFFF00>⌚</color>"`
 
 Суффикс, который выдаётся игроку, если он встал в АФК
 ![afksuffix](/afksuffix.png)
 
 ### `format-true`
-- По умолчанию:
-```yaml
-global: "<gradient:#ffd500:#FFFF00>⌚ <player> is now afk"
-local: "<gradient:#ffd500:#FFFF00>⌚ Now you're afk"
-```
 
 Сообщение, если игрок отошёл
 
 ### `format-false`
-- По умолчанию:
-```yaml
-global: "<gradient:#ffd500:#FFFF00>⌚ <player> isn't afk now"
-local: "<gradient:#ffd500:#FFFF00>⌚ Now you're not afk"
-```
 
 Сообщение, если игрок вернулся

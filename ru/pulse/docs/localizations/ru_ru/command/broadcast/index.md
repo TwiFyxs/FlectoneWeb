@@ -18,11 +18,10 @@ broadcast:
 
 ## Параметры
 
-- [Комманда](/ru/command/broadcast/)
-- [Права](/ru/permission/command/broadcast/)
+- [Комманда](/docs/command/broadcast/)
+- [Права](/docs/permission/command/broadcast/)
 
 ### `format`
-- По умолчанию `<color:#ffd500>🕫 Сообщение для всех от <display_name> <br>❝ <message> ❠`
 
 Формат сообщения, которое будет отправлено
 

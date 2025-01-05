@@ -183,30 +183,17 @@ chatsetting:
         - "RED_CONCRETE"
   cooldown:
     enable: false
-    duration: 60
   sound:
     enable: false
-    type: "BLOCK_NOTE_BLOCK_BELL:1:1"
 ```
 
 ## Параметры
 
-- [Локализация](/ru/localizations/ru_ru/command/chatsetting/)
-- [Права](/ru/permission/command/chatsetting/)
+- [Локализация](/docs/localizations/ru_ru/command/chatsetting/)
+- [Права](/docs/permission/command/chatsetting/)
 
-### `enable`
-- По умолчанию `true`
-
-Включает или выключает работоспособность модуля
-
-### `aliases`
-- По умолчанию `chatsetting`
-
-Список псевдонимов для использования комманды
-
-::: tip Псевдонимы могут быть любыми
-Например `newchatsetting`, `настройкачата` и т.д.
-:::
+<!--@include: @/parts/enable.md-->
+<!--@include: @/parts/enable.md-->
 
 ### `settings`
 
@@ -214,16 +201,10 @@ chatsetting:
 
 ::: tip Пример настройки на `TELL`
 #### `slot`
-- По умолчанию `16`
 
 Слот инвентаря, в котором будет настройка
 
 #### `materials`
-- По умолчанию:
-```yaml
-- LIME_CONCRETE
-- RED_CONCRETE
-```
 
 Список материалов, которые будут использованы для отображения состояния настройки
 
@@ -232,25 +213,5 @@ chatsetting:
 
 :::
 
-### `cooldown`
-- По умолчанию `false`
-
-Включает задержку для игрока между использованиями
-
-::: details Настройка задержки
-#### `duration: 60`
-
-Сколько должно пройти [тиков](https://ru.minecraft.wiki/w/%D0%A2%D0%B0%D0%BA%D1%82) между использованиями
-:::
-
-### `sound`
-- По умолчанию `false`
-
-Включает проигрывание звука при использовании
-
-::: details Настройка звука
-#### `type`
-- По умолчанию `BLOCK_NOTE_BLOCK_BELL:1:1`
-
-Определяет тип (`BLOCK_NOTE_BLOCK_BELL`), громкость (`1`) и тональность (`1`) звука через `:`
-:::
+<!--@include: @/parts/cooldown.md-->
+<!--@include: @/parts/sound.md-->

@@ -18,17 +18,7 @@ icon:
 
 ## Параметры
 
-- [Сообщения](/ru/message/status/icon/)
+- [Сообщения](/docs/message/status/icon/)
 
-### `name`
-- По умолчанию `flectonepulse.module.message.status.icon`
-
-Название права
-
-### `type`
-- По умолчанию `TRUE`
-
-Тип права
-
-<!--@include: @/ru/parts/permission.md-->
+<!--@include: @/parts/permission/permissionTier3.md-->
 

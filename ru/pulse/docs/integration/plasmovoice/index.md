@@ -18,10 +18,7 @@ plasmovoice:
 
 ## Параметры
 
-- [Права](/ru/permission/integration/plasmovoice/)
+- [Права](/docs/permission/integration/plasmovoice/)
 
-### `enable`
-- По умолчанию `true`
-
-Включает или выключает работоспособность модуля
+<!--@include: @/parts/enable.md-->
 

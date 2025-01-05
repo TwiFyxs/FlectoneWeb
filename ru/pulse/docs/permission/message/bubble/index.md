@@ -18,17 +18,7 @@ bubble:
 
 ## Параметры
 
-- [Сообщения](/ru/message/bubble/)
+- [Сообщения](/docs/message/bubble/)
 
-### `name`
-- По умолчанию `flectonepulse.module.message.bubble`
-
-Название права
-
-### `type`
-- По умолчанию `TRUE`
-
-Тип права
-
-<!--@include: @/ru/parts/permission.md-->
+<!--@include: @/parts/permission/permissionTier3.md-->
 
