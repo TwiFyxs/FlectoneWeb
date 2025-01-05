@@ -6,7 +6,7 @@ const boosty = '<svg width="250" height="250" viewBox="-5 60 215.6 150" xmlns="h
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   
-  base: '/ru/pulse/',
+  base: '/pulse/',
   title: "FlectonePulse",
   description: "Это серверный менеджер сообщений, нацеленный на упрощение настройки сервера",
   lastUpdated: true,
