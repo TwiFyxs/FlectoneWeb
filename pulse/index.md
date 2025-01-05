@@ -54,5 +54,3 @@ features:
         <img src="https://bstats.org/signatures/bukkit/FlectonePulse.svg" alt=""></a>
     </article>
 </div>
-
-<script src="../assets/script/language.js"></script>
