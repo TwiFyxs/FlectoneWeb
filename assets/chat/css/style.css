@@ -81,6 +81,26 @@ main {
     height: 100%;
     border-radius: .7vw;
 }
+.panel-button {
+    background-color: #242424;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    padding: 0.2rem;
+    width: 2rem;
+    height: 2rem;
+    justify-content: center;
+}
+.panel-image {
+    width: 1.2rem;
+    filter: opacity(40%);
+}
+.panel-button:hover {
+    background-color: #292929;
+    .panel-image {
+        filter: opacity(70%);
+    }
+}
 .arrows {
     position: absolute;
     justify-content: space-between;
