@@ -1,7 +1,7 @@
 let language = (navigator.language || navigator.browserLanguage).substring(0, 2)
 
 if (!['ru', 'en'].includes(language)) {
-    language = 'en'
+    language = 'ru'
 }
 
 if (language !== "ru") {
