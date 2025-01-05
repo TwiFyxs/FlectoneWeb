@@ -67,7 +67,7 @@ export default defineConfig({
     returnToTopLabel: 'Вернуться к началу',
     langMenuLabel: 'Изменить язык',
     editLink: {
-      pattern: 'https://github.com/Flectone/FlectonePulseWeb/edit/master/docs/:path',
+      pattern: 'https://github.com/Flectone/FlectonePulseWeb/master/docs/:path',
       text: 'Редактировать эту страницу на GitHub'
     },
 
