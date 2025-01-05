@@ -15,7 +15,7 @@ hero:
       link: /docs/
     - theme: alt
       text: Скачать
-      link: https://github.com/flectone/FlectonePulse/releases
+      link: https://modrinth.com/plugin/flectonepulse/versions/
 
 features:
   - icon: 
