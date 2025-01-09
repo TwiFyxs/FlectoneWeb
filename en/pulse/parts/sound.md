@@ -1,19 +1,19 @@
 ### `sound`
-Проигрывание звука
+Playing sound
 
-| Поле     | Тип       | Пояснение                         |
+| Field    | Type      | Explanation                       |
 |----------|-----------|-----------------------------------|
-| `enable` | `boolean` | Включает работу звука             |
-| `volume` | `float`   | Громкость звука от `0` до `1.0`   |
-| `pitch`  | `float`   | Тональность звука от `0` до `1.0` |
-| `type`   | `String`  | Тип звука                         |
+| `enable` | `boolean` | Enables sound operation           |
+| `volume` | `float`   | Sound volume from `0` to `1.0`    |
+| `pitch`  | `float`   | Sound tonality from `0` to `1.0`  |
+| `type`   | `String`  | Type of sound                     |
 
 
-::: tip КАК ИСПОЛЬЗОВАТЬ ЗВУК?
-Замени `false` на `true` и перезапусти `FlectonePulse` с помощью комманды `/flectonepulse reload`, дополнительные параметры для настройки звука появятся ПОСЛЕ ПЕРЕЗАГРУЗКИ
+::: tip HOW TO USE SOUND?
+Replace `false` with `true` and restart `FlectonePulse` with the `/flectonepulse reload` command, the additional parameters for sound customisation will appear AFTER RESTART
 :::
 
-В итоге настройка звука выглядит так
+Sound settings look like this
 ```yaml
 sound:
   enable: true
