@@ -12,7 +12,7 @@ Cooldown uses
 Replace `false` on `true` and restart `FlectonePulse` by mean of command `/flectonepulse reload`. Additional parameters for delay settings will appear AFTER RESET
 :::
 
-As a result, the cooldown setting looks like this
+Cooldown setting looks like this
 ```yaml
 cooldown:
   enable: true
