@@ -3,7 +3,7 @@ layout: home
 
 hero:
   name: "FlectonePulse"
-  tagline: <white>It is a server-side message manager aimed at simplifying server configuration
+  tagline: <white>It is a server-side message manager aimed at simplifying server configuration 
   image:
     src: /platforms.svg
   actions:
