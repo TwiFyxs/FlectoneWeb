@@ -1,7 +1,7 @@
 ### `sound`
 
-Право для использования звука
+Right to use sound
 
-::: details Настройка
+::: details Setting
 <!--@include: @/parts/permission/permissionTier4.md-->
 :::
