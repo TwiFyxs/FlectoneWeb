@@ -1,7 +1,7 @@
 ### `other`
 
-Право для использования на другого игрока
+Right of use on another player
 
-::: details Настройка
+::: details Setting
 <!--@include: @/parts/permission/permissionTier4.md-->
 :::
