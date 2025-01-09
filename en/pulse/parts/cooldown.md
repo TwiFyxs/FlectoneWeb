@@ -9,7 +9,7 @@ Cooldown uses
 
 
 ::: tip HOW USE COOLDOWN?
-Replace `false` on `true` and restart `FlectonePulse` by mean of command `/flectonepulse reload`. Additional parameters for delay settings will appear AFTER RESET
+Replace `false` to `true` and restart `FlectonePulse` by mean of command `/flectonepulse reload`. Additional parameters for delay settings will appear AFTER RESET
 :::
 
 Cooldown setting looks like this
