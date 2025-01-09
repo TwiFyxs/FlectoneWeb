@@ -1,14 +1,14 @@
 #### `name`
 
-Название права
+Title of right
 
 #### `type`
 
-Вид права
+Type of right
 
 | Вид      | Объяснение                                                   |
 |----------|--------------------------------------------------------------|
-| `TRUE`   | Доступно для любого игрока                                   |
-| `FALSE`  | Доступно если выдано отдельно (например с помощью LuckPerms) |
-| `OP`     | Доступно для операторов сервера                              |
-| `NOT_OP` | Доступно если выдано отдельно (например с помощью LuckPerms) |
+| `TRUE`   | Available to any player                                      |
+| `FALSE`  | Available if issued separately (e.g. with LuckPerms)         |
+| `OP`     | Available for server operators                               |
+| `NOT_OP` | Available if issued separately (e.g. with LuckPerms)         |
