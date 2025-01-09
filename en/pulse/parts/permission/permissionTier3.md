@@ -1,10 +1,10 @@
 ### `name`
 
-Title of right
+Title of permission
 
 ### `type`
 
-Type of right
+Type of permission
 
 | Вид      | Объяснение                                                   |
 |----------|--------------------------------------------------------------|
