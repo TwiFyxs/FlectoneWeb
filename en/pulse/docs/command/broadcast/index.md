@@ -10,7 +10,7 @@ Command for global alerting
 <command.broadcast>
 ```
 
-### По умолчанию
+### Default
 ```yaml
 broadcast:
   enable: true
