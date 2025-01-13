@@ -42,7 +42,8 @@ export default defineConfig({
       {
         text: 'Документация',
         items: [
-          { text: "Последняя", link: '/docs/'},
+          { text: "Последняя (0.2.1)", link: '/docs/'},
+          { text: "0.2.0", link: '/docs/0.2.1/'},
         ]
       },
       {
