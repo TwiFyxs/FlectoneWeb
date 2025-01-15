@@ -14,6 +14,7 @@
 ```yaml
 unban:
   enable: true
+  range: -2
   aliases:
     - "unban"
     - "pardon"
@@ -31,6 +32,7 @@ unban:
 - [Права](/docs/permission/command/unban/)
 
 <!--@include: @/parts/enable.md-->
+<!--@include: @/parts/range.md-->
 <!--@include: @/parts/aliases.md-->
 <!--@include: @/parts/destination.md-->
 <!--@include: @/parts/cooldown.md-->

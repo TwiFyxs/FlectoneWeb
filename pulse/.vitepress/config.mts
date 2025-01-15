@@ -39,12 +39,7 @@ export default defineConfig({
 
     nav: [
       { text: 'Начало', link: '/' },
-      {
-        text: 'Документация',
-        items: [
-          { text: "Последняя", link: '/docs/'},
-        ]
-      },
+      { text: 'Документация', link: '/docs/' },
       {
         text: 'Языки',
         items: [
