@@ -1,12 +1,13 @@
 ### `sound`
 Проигрывание звука
 
-| Поле     | Тип       | Пояснение                         |
-|----------|-----------|-----------------------------------|
-| `enable` | `boolean` | Включает работу звука             |
-| `volume` | `float`   | Громкость звука от `0` до `1.0`   |
-| `pitch`  | `float`   | Тональность звука от `0` до `1.0` |
-| `type`   | `String`  | Тип звука                         |
+| Поле       | Тип       | Пояснение                                                                                                        |
+|------------|-----------|------------------------------------------------------------------------------------------------------------------|
+| `enable`   | `boolean` | Включает работу звука                                                                                            |
+| `volume`   | `float`   | Громкость звука от `0` до `1.0`                                                                                  |
+| `pitch`    | `float`   | Тональность звука от `0` до `1.0`                                                                                |
+| `category` | `String`  | Категория из `MASTER`, `MUSIC`, `RECORD`, `WEATHER`, `BLOCK`, `HOSTILE`, `NEUTRAL`, `PLAYER`, `AMBIENT`, `VOICE` |
+| `name`     | `String`  | Название звука, например `minecraft:entity.llama.spit`                                                           |
 
 
 ::: tip КАК ИСПОЛЬЗОВАТЬ ЗВУК?
@@ -19,5 +20,6 @@ sound:
   enable: true
   volume: 1.0
   pitch: 1.0
-  type: "BLOCK_NOTE_BLOCK_BELL"
+  category: "HOSTILE"
+  name: "minecraft:entity.llama.spit"
 ```

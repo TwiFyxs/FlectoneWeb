@@ -14,6 +14,7 @@
 ```yaml
 unwarn:
   enable: true
+  range: -2
   aliases:
     - "unwarn"
   destination:
@@ -30,6 +31,7 @@ unwarn:
 - [Права](/docs/permission/command/unwarn/)
 
 <!--@include: @/parts/enable.md-->
+<!--@include: @/parts/range.md-->
 <!--@include: @/parts/aliases.md-->
 <!--@include: @/parts/destination.md-->
 <!--@include: @/parts/cooldown.md-->

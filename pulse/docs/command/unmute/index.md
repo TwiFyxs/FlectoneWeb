@@ -14,6 +14,7 @@
 ```yaml
 unmute:
   enable: true
+  range: -2
   aliases:
     - "unmute"
   destination:
@@ -30,6 +31,7 @@ unmute:
 - [Права](/docs/permission/command/unmute/)
 
 <!--@include: @/parts/enable.md-->
+<!--@include: @/parts/range.md-->
 <!--@include: @/parts/aliases.md-->
 <!--@include: @/parts/destination.md-->
 <!--@include: @/parts/cooldown.md-->

@@ -11,7 +11,7 @@
 
 ### По умолчанию
 ```yaml
-simplevoice:
+skinsrestorer:
   name: "flectonepulse.module.integration.skinsrestorer"
   type: TRUE
 ```
