@@ -1,16 +1,16 @@
-# Комманда /ignorelist
-Путь `command.yml > ignorelist`
+# Command /ignorelist
+Path `command.yml > ignorelist`
 
-## Пояснение
-Комманда для того, чтобы посмотреть список своих игнорирований
+## Explanation
+Command to see your ignore list
 ![command ignorelist](/commandignorelist.png)
 
-## Редактирование
+## Editing
 ```yaml
 <command.ignorelist>
 ```
 
-### По умолчанию
+### Default setting
 ```yaml
 ignorelist:
   enable: true
@@ -23,10 +23,10 @@ ignorelist:
     enable: false
 ```
 
-## Параметры
+## Parameters
 
-- [Локализация](/docs/localizations/ru_ru/command/ignorelist/)
-- [Права](/docs/permission/command/ignorelist/)
+- [Localisation](/docs/localizations/ru_ru/command/ignorelist/)
+- [Permissions](/docs/permission/command/ignorelist/)
 
 <!--@include: @/parts/enable.md-->
 <!--@include: @/parts/perPage.md-->
