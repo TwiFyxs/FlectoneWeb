@@ -1,17 +1,17 @@
-# Комманда /maintenance
-Путь `command.yml > maintenance`
+# Command /maintenance
+Path `command.yml > maintenance`
 
-## Пояснение
-Комманда для включения технических работ
+## Explanation
+Command to switch on technical work
 ![command maintenance](/commandmaintenance.png)
 ![command maintenance server](/commandmaintenanceserver.png)
 
-## Редактирование
+## Editing
 ```yaml
 <command.maintenance>
 ```
 
-### По умолчанию
+### Default setting
 ```yaml
 maintenance:
   enable: true
@@ -26,16 +26,16 @@ maintenance:
     enable: false
 ```
 
-## Параметры
+## Parameters
 
-- [Локализация](/docs/localizations/ru_ru/command/maintenance/)
-- [Права](/docs/permission/command/maintenance/)
+- [Localisation](/docs/localizations/ru_ru/command/maintenance/)
+- [Permissions](/docs/permission/command/maintenance/)
 
 <!--@include: @/parts/enable.md-->
 
 ### `turned-on`
 
-Включает или выключает технические работы на сервере
+Enables or disables technical work on the server
 
 <!--@include: @/parts/aliases.md-->
 <!--@include: @/parts/destination.md-->
