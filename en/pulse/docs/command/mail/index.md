@@ -1,22 +1,22 @@
-# Комманда /mail
-Путь `command.yml > mail`
+# Command /mail
+Path `command.yml > mail`
 
 ## Пояснение
-Комманда для того, чтобы написать оффлайн игроку письмо
+The command to write a letter to an offline player
 ![command mail](/commandmail.png)
 
-Когда игрок, которому написали письмо, зайдёт на сервер, он увидит эти письма
+When the player to whom the letter was written logs into the server, he will see these letters
 ![command mail player](/commandmailplayer.png)
 
-Если игрок уже на сервере и модуль [Tell](/docs/command/tell/) включен, то он будет использован
+If the player is already on the server and the module [Tell](/docs/command/tell/) is switched on, it will be used
 ![command tell](/commandtell.png)
 
-## Редактирование
+## Editing
 ```yaml
 <command.mail>
 ```
 
-### По умолчанию
+### Default setting
 ```yaml
 mail:
   enable: true
@@ -30,10 +30,10 @@ mail:
     enable: false
 ```
 
-## Параметры
+## Parameters
 
-- [Локализация](/docs/localizations/ru_ru/command/mail/)
-- [Права](/docs/permission/command/mail/)
+- [Localisation](/docs/localizations/ru_ru/command/mail/)
+- [Permissions](/docs/permission/command/mail/)
 
 <!--@include: @/parts/enable.md-->
 <!--@include: @/parts/aliases.md-->
