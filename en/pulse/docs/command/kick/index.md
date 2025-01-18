@@ -1,19 +1,19 @@
-# Комманда /kick
-Путь `command.yml > kick`
+# Command /kick
+Path `command.yml > kick`
 
-## Пояснение
-Комманда для исключения игрока с сервера
+## Explanation
+Command to expel a player from the server
 ![command kick](/commandkick.png)
 
-От лица игрока
+On behalf of the player
 ![command kick player](/commandkickplayer.png)
 
-## Редактирование
+## Editing
 ```yaml
 <command.kick>
 ```
 
-### По умолчанию
+### Default setting
 ```yaml
 kick:
   enable: true
@@ -28,10 +28,10 @@ kick:
     enable: false
 ```
 
-## Параметры
+## Parameters
 
-- [Локализация](/docs/localizations/ru_ru/command/kick/)
-- [Права](/docs/permission/command/kick/)
+- [Localisation](/docs/localizations/ru_ru/command/kick/)
+- [Permissions](/docs/permission/command/kick/)
 
 <!--@include: @/parts/enable.md-->
 <!--@include: @/parts/range.md-->
