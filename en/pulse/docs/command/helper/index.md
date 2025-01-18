@@ -1,19 +1,19 @@
-# Комманда /helper
-Путь `command.yml > helper`
+# Command /helper
+Path `command.yml > helper`
 
-## Пояснение
-Комманда для того, чтобы попросить помощь
+## Explanation
+Command to ask for help
 ![command helper](/commandhelper.png)
 
-От лица помощника
+On behalf of the assistant
 ![command helper player](/commandhelperadmin.png)
 
-## Редактирование
+## Editing
 ```yaml
 <command.helper>
 ```
 
-### По умолчанию
+### Default setting
 ```yaml
 helper:
   enable: true
@@ -28,10 +28,10 @@ helper:
     enable: false
 ```
 
-## Параметры
+## Parameters
 
-- [Локализация](/docs/localizations/ru_ru/command/helper/)
-- [Права](/docs/permission/command/helper/)
+- [Localisation](/docs/localizations/ru_ru/command/helper/)
+- [Permissions](/docs/permission/command/helper/)
 
 <!--@include: @/parts/enable.md-->
 <!--@include: @/parts/range.md-->
