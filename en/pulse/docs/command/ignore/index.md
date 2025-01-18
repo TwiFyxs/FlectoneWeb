@@ -1,19 +1,19 @@
-# Комманда /ignore
-Путь `command.yml > ignore`
+# Command /ignore
+Path `command.yml > ignore`
 
-## Пояснение
-Комманда для игнорирования всех сообщений от игрока
+## Explanation
+Command to ignore all messages from a player
 ![command ignore](/commandignore.png)
 
-Убирается игнорирование с помощью повторного использования
+Removes ignore with reuse
 ![command unignore](/commandunignore.png)
 
-## Редактирование
+## Editing
 ```yaml
 <command.ignore>
 ```
 
-### По умолчанию
+### Default setting
 ```yaml
 ignore:
   enable: true
@@ -28,10 +28,10 @@ ignore:
     enable: false
 ```
 
-## Параметры
+## Parameters
 
-- [Локализация](/docs/localizations/ru_ru/command/ignore/)
-- [Права](/docs/permission/command/ignore/)
+- [Localisation](/docs/localizations/ru_ru/command/ignore/)
+- [Permission](/docs/permission/command/ignore/)
 
 <!--@include: @/parts/enable.md-->
 <!--@include: @/parts/suggestOfflinePlayers.md-->
