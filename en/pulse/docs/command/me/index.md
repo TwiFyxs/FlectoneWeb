@@ -1,16 +1,16 @@
-# Комманда /me
-Путь `command.yml > me`
+# Command /me
+Path `command.yml > me`
 
-## Пояснение
-Комманда для отображения действия
+## Explanation
+Command for displaying an action
 ![command me](/commandme.png)
 
-## Редактирование
+## Editing
 ```yaml
 <command.me>
 ```
 
-### По умолчанию
+### Default setting
 ```yaml
 me:
   enable: true
@@ -25,10 +25,10 @@ me:
     enable: false
 ```
 
-## Параметры
+## Parameters
 
-- [Локализация](/docs/localizations/ru_ru/command/me/)
-- [Права](/docs/permission/command/me/)
+- [Localisation](/docs/localizations/ru_ru/command/me/)
+- [Permissions](/docs/permission/command/me/)
 
 <!--@include: @/parts/enable.md-->
 <!--@include: @/parts/range.md-->
