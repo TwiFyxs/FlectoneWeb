@@ -1,20 +1,20 @@
-# Комманда /mark
-Путь `command.yml > mark`
+# Command /mark
+Path `command.yml > mark`
 
-## Пояснение
-Комманда для создания меток
+## Explanation
+Command for creating labels
 ![command mark](/commandmark.gif)
 
-::: danger Внимательно
-Комманда не будет работать, если модуль [`Mark`](/docs/message/contact/mark/) выключен
+::: Danger Внимательно
+The command will not work if the [`Mark`](/docs/message/contact/mark/) module is disabled
 :::
 
-## Редактирование
+## Editing
 ```yaml
 <command.mark>
 ```
 
-### По умолчанию
+### Default setting
 ```yaml
 mark:
   enable: false
@@ -26,10 +26,10 @@ mark:
     enable: false
 ```
 
-## Параметры
+## Parameters
 
-- [Локализация](/docs/localizations/ru_ru/command/mark/)
-- [Права](/docs/permission/command/mark/)
+- [Localisation](/docs/localizations/ru_ru/command/mark/)
+- [Permissions](/docs/permission/command/mark/)
 
 <!--@include: @/parts/enable.md-->
 <!--@include: @/parts/aliases.md-->
